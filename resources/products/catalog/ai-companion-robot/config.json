@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "category": "electronics",
+  "name": {
+    "zh": "AI 陪伴机器人",
+    "en": "AI Companion Robot"
+  },
+  "summary": {
+    "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
+    "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
+  },
+  "tag": {
+    "zh": "智能陪伴",
+    "en": "AI COMPANIONS"
+  },
+  "image": "images/cover.webp",
+  "sample": true
+}

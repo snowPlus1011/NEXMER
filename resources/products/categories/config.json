@@ -1,0 +1,61 @@
+{
+  "eyebrow": {
+    "zh": "按品类探索 / 02",
+    "en": "EXPLORE BY CATEGORY / 02"
+  },
+  "title": {
+    "zh": "好物，各有所长。",
+    "en": "Different goods. Shared possibility."
+  },
+  "background": "",
+  "items": [
+    {
+      "id": "all",
+      "name": {
+        "zh": "全部",
+        "en": "All products"
+      },
+      "description": {
+        "zh": "完整商品目录",
+        "en": "The full collection"
+      },
+      "image": "images/all.webp"
+    },
+    {
+      "id": "electronics",
+      "name": {
+        "zh": "电子产品",
+        "en": "Electronics"
+      },
+      "description": {
+        "zh": "让生活更智能",
+        "en": "A smarter everyday"
+      },
+      "image": "images/electronics.webp"
+    },
+    {
+      "id": "clothing",
+      "name": {
+        "zh": "服装",
+        "en": "Apparel"
+      },
+      "description": {
+        "zh": "日常穿着精选",
+        "en": "Made for everyday"
+      },
+      "image": "images/clothing.webp"
+    },
+    {
+      "id": "other",
+      "name": {
+        "zh": "其他",
+        "en": "Other goods"
+      },
+      "description": {
+        "zh": "更多生活灵感",
+        "en": "More to discover"
+      },
+      "image": "images/other.webp"
+    }
+  ]
+}

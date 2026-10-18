@@ -1,0 +1,38 @@
+{
+  "eyebrow": {
+    "zh": "连接好产品，与新可能",
+    "en": "GOOD PRODUCTS. NEW POSSIBILITIES."
+  },
+  "title": {
+    "zh": "把智能好物，\n带向更大的世界。",
+    "en": "Smarter living,\nbeyond borders."
+  },
+  "sentences": [
+    {
+      "zh": "我们提供 AI 眼镜、陪伴机器人、智能台灯，以及精选服装与生活好物。",
+      "en": "We bring together AI eyewear, companion robots, smart lighting, and considered apparel and everyday goods."
+    },
+    {
+      "zh": "面向海外客户，从商品选择到采购沟通，让每一次合作从清晰的了解开始。",
+      "en": "For overseas buyers, we make product discovery and sourcing conversations a clear, connected experience."
+    }
+  ],
+  "image": "images/hero.webp",
+  "background": "",
+  "primaryLabel": {
+    "zh": "探索我们的产品",
+    "en": "Explore the collection"
+  },
+  "secondaryLabel": {
+    "zh": "联系我们",
+    "en": "Talk to us"
+  },
+  "imageCaption": {
+    "zh": "为日常注入新的灵感",
+    "en": "A little more possibility, every day."
+  },
+  "imageLabel": {
+    "zh": "智能生活精选",
+    "en": "THE SMART LIVING EDIT"
+  }
+}

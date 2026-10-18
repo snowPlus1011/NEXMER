@@ -1,0 +1,38 @@
+{
+  "blocks": [
+    {
+      "type": "image",
+      "image": "images/01.webp",
+      "alt": {
+        "zh": "AI 陪伴机器人",
+        "en": "AI Companion Robot"
+      },
+      "caption": {
+        "zh": "商品展示样稿",
+        "en": "Illustrative product image"
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "zh": "桌面上的一位新伙伴。",
+        "en": "Meet your next desk companion."
+      },
+      "body": {
+        "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
+        "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "zh": "选型与采购沟通",
+        "en": "Let’s talk sourcing"
+      },
+      "body": {
+        "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+        "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+      }
+    }
+  ]
+}

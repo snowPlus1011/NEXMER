@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "category": "clothing",
+  "name": {
+    "zh": "日常服装精选",
+    "en": "Everyday Apparel"
+  },
+  "summary": {
+    "zh": "从简洁款式开始，发现适合日常穿着的服装。",
+    "en": "Simple silhouettes and everyday essentials. Explore our apparel selection."
+  },
+  "tag": {
+    "zh": "日常服装",
+    "en": "EVERYDAY APPAREL"
+  },
+  "image": "images/cover.webp",
+  "sample": true
+}

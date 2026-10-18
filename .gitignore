@@ -1,0 +1,9 @@
+/node_modules/
+/dist/
+/.sites-runtime/
+/work/
+/coverage/
+*.tsbuildinfo
+.DS_Store
+.wrangler
+.env*

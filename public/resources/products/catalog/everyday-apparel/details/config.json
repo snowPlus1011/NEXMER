@@ -1,0 +1,38 @@
+{
+  "blocks": [
+    {
+      "type": "image",
+      "image": "images/01.webp",
+      "alt": {
+        "zh": "日常服装精选",
+        "en": "Everyday Apparel"
+      },
+      "caption": {
+        "zh": "商品展示样稿",
+        "en": "Illustrative product image"
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "zh": "从简洁款式，开始日常穿搭。",
+        "en": "Simple silhouettes for everyday life."
+      },
+      "body": {
+        "zh": "从简洁款式开始，发现适合日常穿着的服装。",
+        "en": "Simple silhouettes and everyday essentials. Explore our apparel selection."
+      }
+    },
+    {
+      "type": "text",
+      "title": {
+        "zh": "选型与采购沟通",
+        "en": "Let’s talk sourcing"
+      },
+      "body": {
+        "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+        "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+      }
+    }
+  ]
+}

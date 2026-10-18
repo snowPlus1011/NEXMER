@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "category": "other",
+  "name": {
+    "zh": "旅行收纳包",
+    "en": "Travel Organizer"
+  },
+  "summary": {
+    "zh": "把日常小物妥善安放，为出行留一点从容。",
+    "en": "A considered place for your everyday essentials. Ready for your next journey."
+  },
+  "tag": {
+    "zh": "生活好物",
+    "en": "EVERYDAY GOODS"
+  },
+  "image": "images/cover.webp",
+  "sample": true
+}

@@ -1,0 +1,204 @@
+{
+  "version": 2,
+  "modules": {
+    "navigation": {
+      "directory": "navigation",
+      "config": "/resources/navigation/config.json",
+      "files": [
+        "images/nexmer-logo-red-x.png"
+      ],
+      "covers": [
+        "images/nexmer-logo-red-x.png"
+      ],
+      "detailsConfig": null,
+      "details": []
+    },
+    "about": {
+      "directory": "about",
+      "config": "/resources/about/config.json",
+      "files": [
+        "images/hero.webp"
+      ],
+      "covers": [
+        "images/hero.webp"
+      ],
+      "detailsConfig": null,
+      "details": []
+    },
+    "products": {
+      "directory": "products",
+      "config": "/resources/products/config.json",
+      "files": [
+        "catalog/ai-companion-robot/details/images/01.webp",
+        "catalog/ai-companion-robot/images/cover.webp",
+        "catalog/ai-smart-glasses/details/images/01.webp",
+        "catalog/ai-smart-glasses/images/cover.webp",
+        "catalog/ai-smart-lamp/details/images/01.webp",
+        "catalog/ai-smart-lamp/images/cover.webp",
+        "catalog/everyday-apparel/details/images/01.webp",
+        "catalog/everyday-apparel/images/cover.webp",
+        "catalog/travel-organizer/details/images/01.webp",
+        "catalog/travel-organizer/images/cover.webp",
+        "categories/images/all.webp",
+        "categories/images/clothing.webp",
+        "categories/images/electronics.webp",
+        "categories/images/other.webp",
+        "featured/01-ai-smart-glasses/images/cover.webp",
+        "featured/02-ai-companion-robot/images/cover.webp",
+        "featured/03-ai-smart-lamp/images/cover.webp"
+      ],
+      "covers": [],
+      "detailsConfig": null,
+      "details": []
+    },
+    "categories": {
+      "directory": "products/categories",
+      "config": "/resources/products/categories/config.json",
+      "files": [
+        "images/all.webp",
+        "images/clothing.webp",
+        "images/electronics.webp",
+        "images/other.webp"
+      ],
+      "covers": [
+        "images/all.webp",
+        "images/clothing.webp",
+        "images/electronics.webp",
+        "images/other.webp"
+      ],
+      "detailsConfig": null,
+      "details": []
+    },
+    "support": {
+      "directory": "support",
+      "config": "/resources/support/config.json",
+      "files": [],
+      "covers": [],
+      "detailsConfig": null,
+      "details": []
+    }
+  },
+  "products": [
+    {
+      "id": "ai-companion-robot",
+      "directory": "products/catalog/ai-companion-robot",
+      "config": "/resources/products/catalog/ai-companion-robot/config.json",
+      "files": [
+        "details/images/01.webp",
+        "images/cover.webp"
+      ],
+      "covers": [
+        "images/cover.webp"
+      ],
+      "detailsConfig": "/resources/products/catalog/ai-companion-robot/details/config.json",
+      "details": [
+        "details/images/01.webp"
+      ]
+    },
+    {
+      "id": "ai-smart-glasses",
+      "directory": "products/catalog/ai-smart-glasses",
+      "config": "/resources/products/catalog/ai-smart-glasses/config.json",
+      "files": [
+        "details/images/01.webp",
+        "images/cover.webp"
+      ],
+      "covers": [
+        "images/cover.webp"
+      ],
+      "detailsConfig": "/resources/products/catalog/ai-smart-glasses/details/config.json",
+      "details": [
+        "details/images/01.webp"
+      ]
+    },
+    {
+      "id": "ai-smart-lamp",
+      "directory": "products/catalog/ai-smart-lamp",
+      "config": "/resources/products/catalog/ai-smart-lamp/config.json",
+      "files": [
+        "details/images/01.webp",
+        "images/cover.webp"
+      ],
+      "covers": [
+        "images/cover.webp"
+      ],
+      "detailsConfig": "/resources/products/catalog/ai-smart-lamp/details/config.json",
+      "details": [
+        "details/images/01.webp"
+      ]
+    },
+    {
+      "id": "everyday-apparel",
+      "directory": "products/catalog/everyday-apparel",
+      "config": "/resources/products/catalog/everyday-apparel/config.json",
+      "files": [
+        "details/images/01.webp",
+        "images/cover.webp"
+      ],
+      "covers": [
+        "images/cover.webp"
+      ],
+      "detailsConfig": "/resources/products/catalog/everyday-apparel/details/config.json",
+      "details": [
+        "details/images/01.webp"
+      ]
+    },
+    {
+      "id": "travel-organizer",
+      "directory": "products/catalog/travel-organizer",
+      "config": "/resources/products/catalog/travel-organizer/config.json",
+      "files": [
+        "details/images/01.webp",
+        "images/cover.webp"
+      ],
+      "covers": [
+        "images/cover.webp"
+      ],
+      "detailsConfig": "/resources/products/catalog/travel-organizer/details/config.json",
+      "details": [
+        "details/images/01.webp"
+      ]
+    }
+  ],
+  "featured": [
+    {
+      "id": "01-ai-smart-glasses",
+      "directory": "products/featured/01-ai-smart-glasses",
+      "config": "/resources/products/featured/01-ai-smart-glasses/config.json",
+      "files": [
+        "images/cover.webp"
+      ],
+      "covers": [
+        "images/cover.webp"
+      ],
+      "detailsConfig": null,
+      "details": []
+    },
+    {
+      "id": "02-ai-companion-robot",
+      "directory": "products/featured/02-ai-companion-robot",
+      "config": "/resources/products/featured/02-ai-companion-robot/config.json",
+      "files": [
+        "images/cover.webp"
+      ],
+      "covers": [
+        "images/cover.webp"
+      ],
+      "detailsConfig": null,
+      "details": []
+    },
+    {
+      "id": "03-ai-smart-lamp",
+      "directory": "products/featured/03-ai-smart-lamp",
+      "config": "/resources/products/featured/03-ai-smart-lamp/config.json",
+      "files": [
+        "images/cover.webp"
+      ],
+      "covers": [
+        "images/cover.webp"
+      ],
+      "detailsConfig": null,
+      "details": []
+    }
+  ]
+}

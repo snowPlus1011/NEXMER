@@ -1,0 +1,41 @@
+{
+  "brand": "NEXMER",
+  "defaultLanguage": "zh",
+  "tagline": {
+    "zh": "智能生活 · 全球甄选",
+    "en": "Considered goods. Global possibilities."
+  },
+  "sampleNotice": {
+    "zh": "商品展示样稿 · 图片及信息可替换",
+    "en": "Sample collection · Illustrative product images"
+  },
+  "background": "",
+  "logo": "images/nexmer-logo-red-x.png",
+  "links": [
+    {
+      "id": "about",
+      "label": {
+        "zh": "认识我们",
+        "en": "About us"
+      }
+    },
+    {
+      "id": "products",
+      "label": {
+        "zh": "我们的产品",
+        "en": "Our products"
+      }
+    },
+    {
+      "id": "support",
+      "label": {
+        "zh": "服务与支持",
+        "en": "Service & support"
+      }
+    }
+  ],
+  "contactLabel": {
+    "zh": "洽谈合作",
+    "en": "Get in touch"
+  }
+}

@@ -1,0 +1,637 @@
+{
+  "navigation": {
+    "brand": "NEXMER",
+    "tagline": {
+      "zh": "智能生活 · 全球甄选",
+      "en": "Considered goods. Global possibilities."
+    },
+    "defaultLanguage": "zh",
+    "background": "",
+    "logo": "/resources/navigation/images/nexmer-logo-red-x.png",
+    "links": [
+      {
+        "id": "about",
+        "label": {
+          "zh": "认识我们",
+          "en": "About us"
+        }
+      },
+      {
+        "id": "products",
+        "label": {
+          "zh": "我们的产品",
+          "en": "Our products"
+        }
+      },
+      {
+        "id": "support",
+        "label": {
+          "zh": "服务与支持",
+          "en": "Service & support"
+        }
+      }
+    ],
+    "contactLabel": {
+      "zh": "洽谈合作",
+      "en": "Get in touch"
+    },
+    "sampleNotice": {
+      "zh": "商品展示样稿 · 图片及信息可替换",
+      "en": "Sample collection · Illustrative product images"
+    }
+  },
+  "about": {
+    "eyebrow": {
+      "zh": "连接好产品，与新可能",
+      "en": "GOOD PRODUCTS. NEW POSSIBILITIES."
+    },
+    "title": {
+      "zh": "把智能好物，\n带向更大的世界。",
+      "en": "Smarter living,\nbeyond borders."
+    },
+    "sentences": [
+      {
+        "zh": "我们提供 AI 眼镜、陪伴机器人、智能台灯，以及精选服装与生活好物。",
+        "en": "We bring together AI eyewear, companion robots, smart lighting, and considered apparel and everyday goods."
+      },
+      {
+        "zh": "面向海外客户，从商品选择到采购沟通，让每一次合作从清晰的了解开始。",
+        "en": "For overseas buyers, we make product discovery and sourcing conversations a clear, connected experience."
+      }
+    ],
+    "primaryLabel": {
+      "zh": "探索我们的产品",
+      "en": "Explore the collection"
+    },
+    "secondaryLabel": {
+      "zh": "联系我们",
+      "en": "Talk to us"
+    },
+    "image": "/resources/about/images/hero.webp",
+    "background": "",
+    "imageAlt": {
+      "zh": "AI 眼镜、陪伴机器人与智能台灯展示样稿",
+      "en": "Illustrative collection of AI eyewear, a companion robot, and a desk lamp"
+    },
+    "imageCaption": {
+      "zh": "为日常注入新的灵感",
+      "en": "A little more possibility, every day."
+    },
+    "imageLabel": {
+      "zh": "智能生活精选",
+      "en": "THE SMART LIVING EDIT"
+    }
+  },
+  "products": {
+    "eyebrow": {
+      "zh": "精选产品 / 01",
+      "en": "THE COLLECTION / 01"
+    },
+    "title": {
+      "zh": "下一件好产品，从这里发现。",
+      "en": "Meet your next great product."
+    },
+    "description": {
+      "zh": "从智能科技到日常生活，探索我们的主推商品。",
+      "en": "From thoughtful technology to everyday essentials. Discover our featured selection."
+    },
+    "viewAllLabel": {
+      "zh": "查看更多",
+      "en": "View all products"
+    },
+    "detailsLabel": {
+      "zh": "查看详情",
+      "en": "Discover product"
+    },
+    "background": ""
+  },
+  "categories": {
+    "eyebrow": {
+      "zh": "按品类探索 / 02",
+      "en": "EXPLORE BY CATEGORY / 02"
+    },
+    "title": {
+      "zh": "好物，各有所长。",
+      "en": "Different goods. Shared possibility."
+    },
+    "background": "",
+    "items": [
+      {
+        "id": "all",
+        "name": {
+          "zh": "全部",
+          "en": "All products"
+        },
+        "description": {
+          "zh": "完整商品目录",
+          "en": "The full collection"
+        },
+        "image": "/resources/products/categories/images/all.webp"
+      },
+      {
+        "id": "electronics",
+        "name": {
+          "zh": "电子产品",
+          "en": "Electronics"
+        },
+        "description": {
+          "zh": "让生活更智能",
+          "en": "A smarter everyday"
+        },
+        "image": "/resources/products/categories/images/electronics.webp"
+      },
+      {
+        "id": "clothing",
+        "name": {
+          "zh": "服装",
+          "en": "Apparel"
+        },
+        "description": {
+          "zh": "日常穿着精选",
+          "en": "Made for everyday"
+        },
+        "image": "/resources/products/categories/images/clothing.webp"
+      },
+      {
+        "id": "other",
+        "name": {
+          "zh": "其他",
+          "en": "Other goods"
+        },
+        "description": {
+          "zh": "更多生活灵感",
+          "en": "More to discover"
+        },
+        "image": "/resources/products/categories/images/other.webp"
+      }
+    ]
+  },
+  "support": {
+    "eyebrow": {
+      "zh": "服务与支持 / 03",
+      "en": "LET’S CONNECT / 03"
+    },
+    "title": {
+      "zh": "让下一次合作，\n从一次对话开始。",
+      "en": "Your next opportunity\nstarts with a conversation."
+    },
+    "description": {
+      "zh": "告诉我们你感兴趣的商品与采购需求，我们期待与你沟通。",
+      "en": "Tell us what caught your eye and what you’re looking for. We’d love to hear from you."
+    },
+    "email": "",
+    "whatsapp": "",
+    "background": "",
+    "contactTitle": {
+      "zh": "联系信息",
+      "en": "Contact details"
+    }
+  },
+  "catalog": [
+    {
+      "id": "ai-companion-robot",
+      "category": "electronics",
+      "name": {
+        "zh": "AI 陪伴机器人",
+        "en": "AI Companion Robot"
+      },
+      "summary": {
+        "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
+        "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
+      },
+      "tag": {
+        "zh": "智能陪伴",
+        "en": "AI COMPANIONS"
+      },
+      "image": "/resources/products/catalog/ai-companion-robot/images/cover.webp",
+      "details": [
+        {
+          "type": "image",
+          "image": "/resources/products/catalog/ai-companion-robot/details/images/01.webp",
+          "alt": {
+            "zh": "AI 陪伴机器人",
+            "en": "AI Companion Robot"
+          },
+          "caption": {
+            "zh": "商品展示样稿",
+            "en": "Illustrative product image"
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "桌面上的一位新伙伴。",
+            "en": "Meet your next desk companion."
+          },
+          "body": {
+            "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
+            "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "选型与采购沟通",
+            "en": "Let’s talk sourcing"
+          },
+          "body": {
+            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+          }
+        }
+      ],
+      "sample": true,
+      "enabled": true
+    },
+    {
+      "id": "ai-smart-glasses",
+      "category": "electronics",
+      "name": {
+        "zh": "AI 智能眼镜",
+        "en": "AI Smart Glasses"
+      },
+      "summary": {
+        "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
+        "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
+      },
+      "tag": {
+        "zh": "智能穿戴",
+        "en": "SMART WEARABLES"
+      },
+      "image": "/resources/products/catalog/ai-smart-glasses/images/cover.webp",
+      "details": [
+        {
+          "type": "image",
+          "image": "/resources/products/catalog/ai-smart-glasses/details/images/01.webp",
+          "alt": {
+            "zh": "AI 智能眼镜",
+            "en": "AI Smart Glasses"
+          },
+          "caption": {
+            "zh": "商品展示样稿",
+            "en": "Illustrative product image"
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "智能体验，融入日常佩戴。",
+            "en": "A fresh perspective on everyday life."
+          },
+          "body": {
+            "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
+            "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "选型与采购沟通",
+            "en": "Let’s talk sourcing"
+          },
+          "body": {
+            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+          }
+        }
+      ],
+      "sample": true,
+      "enabled": true
+    },
+    {
+      "id": "ai-smart-lamp",
+      "category": "electronics",
+      "name": {
+        "zh": "AI 智能台灯",
+        "en": "AI Smart Desk Lamp"
+      },
+      "summary": {
+        "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
+        "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
+      },
+      "tag": {
+        "zh": "智能家居",
+        "en": "SMART HOME"
+      },
+      "image": "/resources/products/catalog/ai-smart-lamp/images/cover.webp",
+      "details": [
+        {
+          "type": "image",
+          "image": "/resources/products/catalog/ai-smart-lamp/details/images/01.webp",
+          "alt": {
+            "zh": "AI 智能台灯",
+            "en": "AI Smart Desk Lamp"
+          },
+          "caption": {
+            "zh": "商品展示样稿",
+            "en": "Illustrative product image"
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "点亮桌面，也点亮灵感。",
+            "en": "A little light. A new possibility."
+          },
+          "body": {
+            "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
+            "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "选型与采购沟通",
+            "en": "Let’s talk sourcing"
+          },
+          "body": {
+            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+          }
+        }
+      ],
+      "sample": true,
+      "enabled": true
+    },
+    {
+      "id": "everyday-apparel",
+      "category": "clothing",
+      "name": {
+        "zh": "日常服装精选",
+        "en": "Everyday Apparel"
+      },
+      "summary": {
+        "zh": "从简洁款式开始，发现适合日常穿着的服装。",
+        "en": "Simple silhouettes and everyday essentials. Explore our apparel selection."
+      },
+      "tag": {
+        "zh": "日常服装",
+        "en": "EVERYDAY APPAREL"
+      },
+      "image": "/resources/products/catalog/everyday-apparel/images/cover.webp",
+      "details": [
+        {
+          "type": "image",
+          "image": "/resources/products/catalog/everyday-apparel/details/images/01.webp",
+          "alt": {
+            "zh": "日常服装精选",
+            "en": "Everyday Apparel"
+          },
+          "caption": {
+            "zh": "商品展示样稿",
+            "en": "Illustrative product image"
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "从简洁款式，开始日常穿搭。",
+            "en": "Simple silhouettes for everyday life."
+          },
+          "body": {
+            "zh": "从简洁款式开始，发现适合日常穿着的服装。",
+            "en": "Simple silhouettes and everyday essentials. Explore our apparel selection."
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "选型与采购沟通",
+            "en": "Let’s talk sourcing"
+          },
+          "body": {
+            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+          }
+        }
+      ],
+      "sample": true,
+      "enabled": true
+    },
+    {
+      "id": "travel-organizer",
+      "category": "other",
+      "name": {
+        "zh": "旅行收纳包",
+        "en": "Travel Organizer"
+      },
+      "summary": {
+        "zh": "把日常小物妥善安放，为出行留一点从容。",
+        "en": "A considered place for your everyday essentials. Ready for your next journey."
+      },
+      "tag": {
+        "zh": "生活好物",
+        "en": "EVERYDAY GOODS"
+      },
+      "image": "/resources/products/catalog/travel-organizer/images/cover.webp",
+      "details": [
+        {
+          "type": "image",
+          "image": "/resources/products/catalog/travel-organizer/details/images/01.webp",
+          "alt": {
+            "zh": "旅行收纳包",
+            "en": "Travel Organizer"
+          },
+          "caption": {
+            "zh": "商品展示样稿",
+            "en": "Illustrative product image"
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "让随身小物，各得其所。",
+            "en": "A place for the things you take along."
+          },
+          "body": {
+            "zh": "把日常小物妥善安放，为出行留一点从容。",
+            "en": "A considered place for your everyday essentials. Ready for your next journey."
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "选型与采购沟通",
+            "en": "Let’s talk sourcing"
+          },
+          "body": {
+            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+          }
+        }
+      ],
+      "sample": true,
+      "enabled": true
+    }
+  ],
+  "featured": [
+    {
+      "id": "ai-smart-glasses",
+      "category": "electronics",
+      "name": {
+        "zh": "AI 智能眼镜",
+        "en": "AI Smart Glasses"
+      },
+      "summary": {
+        "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
+        "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
+      },
+      "tag": {
+        "zh": "智能穿戴",
+        "en": "SMART WEARABLES"
+      },
+      "image": "/resources/products/featured/01-ai-smart-glasses/images/cover.webp",
+      "details": [
+        {
+          "type": "image",
+          "image": "/resources/products/catalog/ai-smart-glasses/details/images/01.webp",
+          "alt": {
+            "zh": "AI 智能眼镜",
+            "en": "AI Smart Glasses"
+          },
+          "caption": {
+            "zh": "商品展示样稿",
+            "en": "Illustrative product image"
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "智能体验，融入日常佩戴。",
+            "en": "A fresh perspective on everyday life."
+          },
+          "body": {
+            "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
+            "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "选型与采购沟通",
+            "en": "Let’s talk sourcing"
+          },
+          "body": {
+            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+          }
+        }
+      ],
+      "sample": true,
+      "enabled": true,
+      "productId": "ai-smart-glasses"
+    },
+    {
+      "id": "ai-companion-robot",
+      "category": "electronics",
+      "name": {
+        "zh": "AI 陪伴机器人",
+        "en": "AI Companion Robot"
+      },
+      "summary": {
+        "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
+        "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
+      },
+      "tag": {
+        "zh": "智能陪伴",
+        "en": "AI COMPANIONS"
+      },
+      "image": "/resources/products/featured/02-ai-companion-robot/images/cover.webp",
+      "details": [
+        {
+          "type": "image",
+          "image": "/resources/products/catalog/ai-companion-robot/details/images/01.webp",
+          "alt": {
+            "zh": "AI 陪伴机器人",
+            "en": "AI Companion Robot"
+          },
+          "caption": {
+            "zh": "商品展示样稿",
+            "en": "Illustrative product image"
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "桌面上的一位新伙伴。",
+            "en": "Meet your next desk companion."
+          },
+          "body": {
+            "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
+            "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "选型与采购沟通",
+            "en": "Let’s talk sourcing"
+          },
+          "body": {
+            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+          }
+        }
+      ],
+      "sample": true,
+      "enabled": true,
+      "productId": "ai-companion-robot"
+    },
+    {
+      "id": "ai-smart-lamp",
+      "category": "electronics",
+      "name": {
+        "zh": "AI 智能台灯",
+        "en": "AI Smart Desk Lamp"
+      },
+      "summary": {
+        "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
+        "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
+      },
+      "tag": {
+        "zh": "智能家居",
+        "en": "SMART HOME"
+      },
+      "image": "/resources/products/featured/03-ai-smart-lamp/images/cover.webp",
+      "details": [
+        {
+          "type": "image",
+          "image": "/resources/products/catalog/ai-smart-lamp/details/images/01.webp",
+          "alt": {
+            "zh": "AI 智能台灯",
+            "en": "AI Smart Desk Lamp"
+          },
+          "caption": {
+            "zh": "商品展示样稿",
+            "en": "Illustrative product image"
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "点亮桌面，也点亮灵感。",
+            "en": "A little light. A new possibility."
+          },
+          "body": {
+            "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
+            "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
+          }
+        },
+        {
+          "type": "text",
+          "title": {
+            "zh": "选型与采购沟通",
+            "en": "Let’s talk sourcing"
+          },
+          "body": {
+            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
+            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+          }
+        }
+      ],
+      "sample": true,
+      "enabled": true,
+      "productId": "ai-smart-lamp"
+    }
+  ]
+}

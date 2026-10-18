@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "category": "electronics",
+  "name": {
+    "zh": "AI 智能眼镜",
+    "en": "AI Smart Glasses"
+  },
+  "summary": {
+    "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
+    "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
+  },
+  "tag": {
+    "zh": "智能穿戴",
+    "en": "SMART WEARABLES"
+  },
+  "image": "images/cover.webp",
+  "sample": true
+}

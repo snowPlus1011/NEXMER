@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "category": "electronics",
+  "name": {
+    "zh": "AI 智能台灯",
+    "en": "AI Smart Desk Lamp"
+  },
+  "summary": {
+    "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
+    "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
+  },
+  "tag": {
+    "zh": "智能家居",
+    "en": "SMART HOME"
+  },
+  "image": "images/cover.webp",
+  "sample": true
+}
