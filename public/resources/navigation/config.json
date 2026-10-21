@@ -1,16 +1,13 @@
 {
   "brand": "NEXMER",
-  "defaultLanguage": "zh",
+  "siteTitle": "NEXMER｜AI Products from China",
+  "defaultLanguage": "en",
   "tagline": {
     "zh": "智能生活 · 全球甄选",
     "en": "Considered goods. Global possibilities."
   },
-  "sampleNotice": {
-    "zh": "商品展示样稿 · 图片及信息可替换",
-    "en": "Sample collection · Illustrative product images"
-  },
   "background": "",
-  "logo": "images/nexmer-logo-red-x.png",
+  "logo": "images/nexmer-wordmark-vector.svg",
   "links": [
     {
       "id": "about",

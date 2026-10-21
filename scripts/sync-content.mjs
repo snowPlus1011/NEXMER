@@ -30,7 +30,7 @@ export async function syncContent(projectRoot = process.cwd(), quiet = false) {
       try { value = JSON.parse(await readFile(path.join(root, directory, "config.json"), "utf8")); }
       catch { throw new Error(`JSON 格式有误，请检查 resources/${directory}/config.json 的逗号和双引号。`); }
       if (!value || typeof value !== "object" || Array.isArray(value)) throw new Error(`配置必须为 JSON 对象：resources/${directory}/config.json`);
-      for (const key of ["image", "background", "logo"]) {
+      for (const key of ["image", "background", "logo", "whatsappQrImage"]) {
         const file = value[key];
         if (!file) continue;
         if (typeof file !== "string" || file.includes("..") || file.startsWith("http") || file.startsWith("/")) {
@@ -41,6 +41,10 @@ export async function syncContent(projectRoot = process.cwd(), quiet = false) {
       if (Array.isArray(value.items)) for (const item of value.items) {
         if (item?.image && (typeof item.image !== "string" || item.image.includes("..") || item.image.startsWith("/") || item.image.startsWith("http"))) throw new Error(`分类图片必须使用当前文件夹相对路径：resources/${directory}/config.json`);
         if (item?.image && !all.includes(item.image)) warnings.push(`分类 ${item.id} 的图片 ${item.image} 缺失，将使用默认图。`);
+        if (item?.imagePosition !== undefined) {
+          const position = item.imagePosition;
+          if (typeof position !== "string" || position.trim().split(/\s+/).length !== 2 || !position.trim().split(/\s+/).every(value => /^\d+(?:\.\d+)?%$/.test(value) && parseFloat(value) >= 0 && parseFloat(value) <= 100)) throw new Error(`分类 ${item.id} 的 imagePosition 必须是两个 0%–100% 的百分比，例如 50% 0%：resources/${directory}/config.json`);
+        }
       }
     }
     const detailsConfig = id && directory.startsWith("products/catalog/") && all.includes("details/config.json") ? `/resources/${directory}/details/config.json` : null;
@@ -51,6 +55,7 @@ export async function syncContent(projectRoot = process.cwd(), quiet = false) {
       catch { throw new Error(`JSON 格式有误，请检查 ${filename} 的逗号和双引号。`); }
       if (!value || typeof value !== "object" || Array.isArray(value)) throw new Error(`配置必须为 JSON 对象：${filename}`);
       if (value.blocks !== undefined && !Array.isArray(value.blocks)) throw new Error(`${filename} 的 blocks 必须是图文内容数组。`);
+      if (value.layout !== undefined && !["spaced", "seamless"].includes(value.layout)) throw new Error(`${filename} 的 layout 只能为 spaced（留间距）或 seamless（无缝拼接）。`);
       const validText = text => text === undefined || typeof text === "string" || (text && typeof text === "object" && !Array.isArray(text) && Object.keys(text).every(key => ["zh", "en"].includes(key) && typeof text[key] === "string"));
       for (const [position, block] of (value.blocks ?? []).entries()) {
         const location = `${filename} 的 blocks[${position}]`;
@@ -59,9 +64,14 @@ export async function syncContent(projectRoot = process.cwd(), quiet = false) {
           if (!validText(block[field])) throw new Error(`${location} 的 ${field} 必须是文字或包含 zh / en 的文字对象。`);
         }
         if (block.type === "image") {
-          const file = block.image;
-          if (typeof file !== "string" || !file.startsWith("images/") || file.includes("..") || file.includes("\\") || !imagePattern.test(file)) throw new Error(`${location} 的 image 必须是详情文件夹内 images/ 开头的相对图片路径。`);
-          if (!all.includes(`details/${file}`)) warnings.push(`${location}：找不到 ${file}，将展示商品封面或默认图片。`);
+          const value = block.image;
+          const localized = value && typeof value === "object" && !Array.isArray(value);
+          if (typeof value !== "string" && (!localized || !Object.keys(value).length || !Object.keys(value).every(key => ["zh", "en"].includes(key)))) throw new Error(`${location} 的 image 必须是相对图片路径或包含 zh / en 图片路径的对象。`);
+          for (const [language, file] of typeof value === "string" ? [["", value]] : Object.entries(value)) {
+            const field = `${location} 的 image${language ? `.${language}` : ""}`;
+            if (typeof file !== "string" || !file.startsWith("images/") || file.includes("..") || file.includes("\\") || !imagePattern.test(file)) throw new Error(`${field} 必须是详情文件夹内 images/ 开头的相对图片路径。`);
+            if (!all.includes(`details/${file}`)) warnings.push(`${field}：找不到 ${file}，将展示另一语言图片、商品封面或默认图片。`);
+          }
         }
       }
     }

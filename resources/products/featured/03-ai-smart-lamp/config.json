@@ -1,5 +1,17 @@
 {
   "enabled": true,
   "productId": "ai-smart-lamp",
-  "image": "images/cover.webp"
+  "image": "images/light-seeker-cover.png",
+  "name": {
+    "zh": "逐光者 · AI 智能自适应台灯",
+    "en": "Light Seeker · AI Adaptive Desk Lamp"
+  },
+  "summary": {
+    "zh": "实时感知环境与使用状态，学习照明习惯，自动调节亮度与色温；支持 App 智控，适配工作、阅读与放松。",
+    "en": "Real-time sensing and habit learning adapt brightness and tone to your day. App control for focus, reading and unwinding."
+  },
+  "tag": {
+    "zh": "AI 自适应照明",
+    "en": "AI ADAPTIVE LIGHTING"
+  }
 }

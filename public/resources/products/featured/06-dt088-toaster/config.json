@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "productId": "dt088-toaster",
+  "name": {
+    "zh": "DT088 双槽多士炉",
+    "en": "DT088 2-Slice Toaster"
+  },
+  "summary": {
+    "zh": "双槽设计，7 档烘烤程度可调，支持解冻、再加热与一键停止。独立控制杆搭配抽出式集屑盘，让日常早餐与清洁更轻松。",
+    "en": "A 2-slice toaster with 7 browning levels, defrost, reheat and stop functions. An independent lever and removable crumb tray simplify everyday use and cleanup."
+  },
+  "tag": {
+    "zh": "早餐电器 · 双槽多士炉",
+    "en": "BREAKFAST APPLIANCES"
+  },
+  "image": "images/dt088-toaster-cover.png"
+}

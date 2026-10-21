@@ -1,7 +1,7 @@
 {
   "eyebrow": {
-    "zh": "按品类探索 / 02",
-    "en": "EXPLORE BY CATEGORY / 02"
+    "zh": "按品类探索 / 01",
+    "en": "EXPLORE BY CATEGORY / 01"
   },
   "title": {
     "zh": "好物，各有所长。",
@@ -19,43 +19,59 @@
         "zh": "完整商品目录",
         "en": "The full collection"
       },
-      "image": "images/all.webp"
+      "image": ""
     },
     {
       "id": "electronics",
       "name": {
-        "zh": "电子产品",
-        "en": "Electronics"
+        "zh": "智能电子",
+        "en": "Smart Electronics"
       },
       "description": {
-        "zh": "让生活更智能",
-        "en": "A smarter everyday"
+        "zh": "AI 眼镜、陪伴宠物与智能照明",
+        "en": "AI eyewear, companions & smart lighting"
       },
-      "image": "images/electronics.webp"
+      "image": "images/smart-electronics.png",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "id": "home-living",
+      "name": {
+        "zh": "家居生活",
+        "en": "Home & Living"
+      },
+      "description": {
+        "zh": "小家电、厨房电器与生活好物",
+        "en": "Kitchen appliances & everyday essentials"
+      },
+      "image": "images/home-living.jpg",
+      "imagePosition": "50% 50%"
+    },
+    {
+      "id": "fragrance-beauty",
+      "name": {
+        "zh": "香氛美妆",
+        "en": "Fragrance & Beauty"
+      },
+      "description": {
+        "zh": "文旦柚香氛、香精与香氛生活产品",
+        "en": "Pomelo fragrance, perfume & scented living"
+      },
+      "image": "images/fragrance-beauty.png",
+      "imagePosition": "50% 50%"
     },
     {
       "id": "clothing",
       "name": {
-        "zh": "服装",
-        "en": "Apparel"
+        "zh": "时尚与文化",
+        "en": "Fashion & Culture"
       },
       "description": {
-        "zh": "日常穿着精选",
-        "en": "Made for everyday"
+        "zh": "汉服、传统服饰与文化配饰",
+        "en": "Hanfu, heritage clothing & accessories"
       },
-      "image": "images/clothing.webp"
-    },
-    {
-      "id": "other",
-      "name": {
-        "zh": "其他",
-        "en": "Other goods"
-      },
-      "description": {
-        "zh": "更多生活灵感",
-        "en": "More to discover"
-      },
-      "image": "images/other.webp"
+      "image": "images/fashion-culture.jpg",
+      "imagePosition": "50% 0%"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "category": "clothing",
   "name": {
     "zh": "日常服装精选",
@@ -13,6 +13,5 @@
     "zh": "日常服装",
     "en": "EVERYDAY APPAREL"
   },
-  "image": "images/cover.webp",
-  "sample": true
+  "image": "images/cover.webp"
 }

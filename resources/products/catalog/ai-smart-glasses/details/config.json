@@ -1,37 +1,59 @@
 {
+  "layout": "seamless",
   "blocks": [
     {
       "type": "image",
-      "image": "images/01.webp",
+      "image": {
+        "zh": "images/zh/01.png",
+        "en": "images/en/01.png"
+      },
       "alt": {
-        "zh": "AI 智能眼镜",
-        "en": "AI Smart Glasses"
-      },
-      "caption": {
-        "zh": "商品展示样稿",
-        "en": "Illustrative product image"
+        "zh": "AI 智能眼镜 AG18 · AG18 智能眼镜介绍",
+        "en": "AI Smart Glasses AG18 · AG18 AI smart glasses overview"
       }
     },
     {
-      "type": "text",
-      "title": {
-        "zh": "智能体验，融入日常佩戴。",
-        "en": "A fresh perspective on everyday life."
+      "type": "image",
+      "image": {
+        "zh": "images/zh/02.png",
+        "en": "images/en/02.png"
       },
-      "body": {
-        "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
-        "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
+      "alt": {
+        "zh": "AI 智能眼镜 AG18 · 拍摄、翻译、问答、智能笔记与开放式音频",
+        "en": "AI Smart Glasses AG18 · Capture, translation, AI Q&A, smart notes and open-ear audio"
       }
     },
     {
-      "type": "text",
-      "title": {
-        "zh": "选型与采购沟通",
-        "en": "Let’s talk sourcing"
+      "type": "image",
+      "image": {
+        "zh": "images/zh/03.png",
+        "en": "images/en/03.png"
       },
-      "body": {
-        "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-        "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+      "alt": {
+        "zh": "AI 智能眼镜 AG18 · 通勤、户外、商务交流与休闲使用场景",
+        "en": "AI Smart Glasses AG18 · Commuting, outdoor, conversation and listening scenarios"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/04.png",
+        "en": "images/en/04.png"
+      },
+      "alt": {
+        "zh": "AI 智能眼镜 AG18 · 镜头、鼻托、镜架、音频与佩戴细节",
+        "en": "AI Smart Glasses AG18 · Camera, frame, nose pads and wearing details"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/05.png",
+        "en": "images/en/05.png"
+      },
+      "alt": {
+        "zh": "AI 智能眼镜 AG18 · 产品参数与三视图",
+        "en": "AI Smart Glasses AG18 · Specifications overview and three-view design"
       }
     }
   ]

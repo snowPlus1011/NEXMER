@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "productId": "ai-companion-robot",
   "image": "images/cover.webp"
 }

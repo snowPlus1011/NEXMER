@@ -1,37 +1,92 @@
 {
+  "layout": "seamless",
   "blocks": [
     {
       "type": "image",
-      "image": "images/01.webp",
+      "image": {
+        "zh": "images/zh/01.png",
+        "en": "images/en/01.png"
+      },
       "alt": {
-        "zh": "AI 智能台灯",
-        "en": "AI Smart Desk Lamp"
-      },
-      "caption": {
-        "zh": "商品展示样稿",
-        "en": "Illustrative product image"
+        "zh": "逐光者 AI 智能自适应台灯 · 产品介绍",
+        "en": "Light Seeker AI Adaptive Desk Lamp · Product overview"
       }
     },
     {
-      "type": "text",
-      "title": {
-        "zh": "点亮桌面，也点亮灵感。",
-        "en": "A little light. A new possibility."
+      "type": "image",
+      "image": {
+        "zh": "images/zh/02.png",
+        "en": "images/en/02.png"
       },
-      "body": {
-        "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
-        "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
+      "alt": {
+        "zh": "逐光者 AI 智能自适应台灯 · AI 自适应照明",
+        "en": "Light Seeker AI Adaptive Desk Lamp · AI adaptive lighting"
       }
     },
     {
-      "type": "text",
-      "title": {
-        "zh": "选型与采购沟通",
-        "en": "Let’s talk sourcing"
+      "type": "image",
+      "image": {
+        "zh": "images/zh/03.png",
+        "en": "images/en/03.png"
       },
-      "body": {
-        "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-        "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
+      "alt": {
+        "zh": "逐光者 AI 智能自适应台灯 · 工作、阅读与放松",
+        "en": "Light Seeker AI Adaptive Desk Lamp · Focus, reading and unwinding"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/04.png",
+        "en": "images/en/04.png"
+      },
+      "alt": {
+        "zh": "逐光者 AI 智能自适应台灯 · App 智控",
+        "en": "Light Seeker AI Adaptive Desk Lamp · App control"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/05.png",
+        "en": "images/en/05.png"
+      },
+      "alt": {
+        "zh": "逐光者 AI 智能自适应台灯 · 多角度调节",
+        "en": "Light Seeker AI Adaptive Desk Lamp · Flexible adjustment"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/06.png",
+        "en": "images/en/06.png"
+      },
+      "alt": {
+        "zh": "逐光者 AI 智能自适应台灯 · 产品细节",
+        "en": "Light Seeker AI Adaptive Desk Lamp · Product details"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/07.png",
+        "en": "images/en/07.png"
+      },
+      "alt": {
+        "zh": "逐光者 AI 智能自适应台灯 · 内部结构",
+        "en": "Light Seeker AI Adaptive Desk Lamp · Engineering"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/08.png",
+        "en": "images/en/08.png"
+      },
+      "alt": {
+        "zh": "逐光者 AI 智能自适应台灯 · 产品尺寸",
+        "en": "Light Seeker AI Adaptive Desk Lamp · Dimensions"
       }
     }
   ]

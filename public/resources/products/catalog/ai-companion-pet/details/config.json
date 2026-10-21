@@ -1,0 +1,60 @@
+{
+  "layout": "seamless",
+  "blocks": [
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/01.png",
+        "en": "images/en/01.png"
+      },
+      "alt": {
+        "zh": "AI 陪伴宠物 · AI 陪伴宠物介绍",
+        "en": "AI Companion Pet · AI Companion Pet overview"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/02.png",
+        "en": "images/en/02.png"
+      },
+      "alt": {
+        "zh": "AI 陪伴宠物 · 正面、45度、侧面与背面多角度展示",
+        "en": "AI Companion Pet · Front, 45-degree, side and back views"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/03.png",
+        "en": "images/en/03.png"
+      },
+      "alt": {
+        "zh": "AI 陪伴宠物 · 发光蓝眼、毛绒与挂绳细节",
+        "en": "AI Companion Pet · Glowing eyes, plush texture and hanging loop details"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/04.png",
+        "en": "images/en/04.png"
+      },
+      "alt": {
+        "zh": "AI 陪伴宠物 · 桌面、床头、出行与送礼使用场景",
+        "en": "AI Companion Pet · Desk, bedside, travel and gifting scenarios"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/05.png",
+        "en": "images/en/05.png"
+      },
+      "alt": {
+        "zh": "AI 陪伴宠物 · 柔软触感与便携陪伴亮点",
+        "en": "AI Companion Pet · Soft-touch and portable companion highlights"
+      }
+    }
+  ]
+}

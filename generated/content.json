@@ -5,9 +5,10 @@
       "zh": "智能生活 · 全球甄选",
       "en": "Considered goods. Global possibilities."
     },
-    "defaultLanguage": "zh",
+    "siteTitle": "NEXMER｜AI Products from China",
+    "defaultLanguage": "en",
     "background": "",
-    "logo": "/resources/navigation/images/nexmer-logo-red-x.png",
+    "logo": "/resources/navigation/images/nexmer-wordmark-vector.svg",
     "links": [
       {
         "id": "about",
@@ -34,10 +35,6 @@
     "contactLabel": {
       "zh": "洽谈合作",
       "en": "Get in touch"
-    },
-    "sampleNotice": {
-      "zh": "商品展示样稿 · 图片及信息可替换",
-      "en": "Sample collection · Illustrative product images"
     }
   },
   "about": {
@@ -51,8 +48,8 @@
     },
     "sentences": [
       {
-        "zh": "我们提供 AI 眼镜、陪伴机器人、智能台灯，以及精选服装与生活好物。",
-        "en": "We bring together AI eyewear, companion robots, smart lighting, and considered apparel and everyday goods."
+        "zh": "我们甄选 AI 眼镜、AI 陪伴宠物、智能台灯，以及汉服、香氛与厨房电器。",
+        "en": "We bring together AI eyewear, plush companions and adaptive lighting, alongside Hanfu, fragrances and kitchen appliances."
       },
       {
         "zh": "面向海外客户，从商品选择到采购沟通，让每一次合作从清晰的了解开始。",
@@ -67,25 +64,25 @@
       "zh": "联系我们",
       "en": "Talk to us"
     },
-    "image": "/resources/about/images/hero.webp",
+    "image": "/resources/about/images/hero-ai-collection.png",
     "background": "",
     "imageAlt": {
-      "zh": "AI 眼镜、陪伴机器人与智能台灯展示样稿",
-      "en": "Illustrative collection of AI eyewear, a companion robot, and a desk lamp"
+      "zh": "红色光环与深色展台中的银色 AI 台灯、黑色 AI 眼镜和蓝色笑眼陪伴机器人",
+      "en": "AI desk lamp, smart glasses and a companion robot on dark podiums beneath a glowing red orbit"
     },
     "imageCaption": {
-      "zh": "为日常注入新的灵感",
-      "en": "A little more possibility, every day."
+      "zh": "让未来，融入每一天。",
+      "en": "The future, made part of every day."
     },
     "imageLabel": {
-      "zh": "智能生活精选",
-      "en": "THE SMART LIVING EDIT"
+      "zh": "AI 智能生活精选",
+      "en": "THE AI LIVING COLLECTION"
     }
   },
   "products": {
     "eyebrow": {
-      "zh": "精选产品 / 01",
-      "en": "THE COLLECTION / 01"
+      "zh": "精选产品 / 02",
+      "en": "THE COLLECTION / 02"
     },
     "title": {
       "zh": "下一件好产品，从这里发现。",
@@ -107,8 +104,8 @@
   },
   "categories": {
     "eyebrow": {
-      "zh": "按品类探索 / 02",
-      "en": "EXPLORE BY CATEGORY / 02"
+      "zh": "按品类探索 / 01",
+      "en": "EXPLORE BY CATEGORY / 01"
     },
     "title": {
       "zh": "好物，各有所长。",
@@ -126,43 +123,59 @@
           "zh": "完整商品目录",
           "en": "The full collection"
         },
-        "image": "/resources/products/categories/images/all.webp"
+        "image": "/defaults/hero.webp"
       },
       {
         "id": "electronics",
         "name": {
-          "zh": "电子产品",
-          "en": "Electronics"
+          "zh": "智能电子",
+          "en": "Smart Electronics"
         },
         "description": {
-          "zh": "让生活更智能",
-          "en": "A smarter everyday"
+          "zh": "AI 眼镜、陪伴宠物与智能照明",
+          "en": "AI eyewear, companions & smart lighting"
         },
-        "image": "/resources/products/categories/images/electronics.webp"
+        "image": "/resources/products/categories/images/smart-electronics.png",
+        "imagePosition": "50% 50%"
+      },
+      {
+        "id": "home-living",
+        "name": {
+          "zh": "家居生活",
+          "en": "Home & Living"
+        },
+        "description": {
+          "zh": "小家电、厨房电器与生活好物",
+          "en": "Kitchen appliances & everyday essentials"
+        },
+        "image": "/resources/products/categories/images/home-living.jpg",
+        "imagePosition": "50% 50%"
+      },
+      {
+        "id": "fragrance-beauty",
+        "name": {
+          "zh": "香氛美妆",
+          "en": "Fragrance & Beauty"
+        },
+        "description": {
+          "zh": "文旦柚香氛、香精与香氛生活产品",
+          "en": "Pomelo fragrance, perfume & scented living"
+        },
+        "image": "/resources/products/categories/images/fragrance-beauty.png",
+        "imagePosition": "50% 50%"
       },
       {
         "id": "clothing",
         "name": {
-          "zh": "服装",
-          "en": "Apparel"
+          "zh": "时尚与文化",
+          "en": "Fashion & Culture"
         },
         "description": {
-          "zh": "日常穿着精选",
-          "en": "Made for everyday"
+          "zh": "汉服、传统服饰与文化配饰",
+          "en": "Hanfu, heritage clothing & accessories"
         },
-        "image": "/resources/products/categories/images/clothing.webp"
-      },
-      {
-        "id": "other",
-        "name": {
-          "zh": "其他",
-          "en": "Other goods"
-        },
-        "description": {
-          "zh": "更多生活灵感",
-          "en": "More to discover"
-        },
-        "image": "/resources/products/categories/images/other.webp"
+        "image": "/resources/products/categories/images/fashion-culture.jpg",
+        "imagePosition": "50% 0%"
       }
     ]
   },
@@ -179,8 +192,17 @@
       "zh": "告诉我们你感兴趣的商品与采购需求，我们期待与你沟通。",
       "en": "Tell us what caught your eye and what you’re looking for. We’d love to hear from you."
     },
-    "email": "",
+    "email": "maje.nexmer@gmail.com",
     "whatsapp": "",
+    "whatsappQrImage": "/resources/support/images/whatsapp-qr.svg",
+    "whatsappQrLabel": {
+      "zh": "使用 WhatsApp 扫码联系",
+      "en": "Scan with WhatsApp to connect"
+    },
+    "whatsappQrAlt": {
+      "zh": "NEXMER WhatsApp 联系二维码",
+      "en": "NEXMER WhatsApp contact QR code"
+    },
     "background": "",
     "contactTitle": {
       "zh": "联系信息",
@@ -189,279 +211,574 @@
   },
   "catalog": [
     {
-      "id": "ai-companion-robot",
+      "id": "ai-companion-pet",
       "category": "electronics",
       "name": {
-        "zh": "AI 陪伴机器人",
-        "en": "AI Companion Robot"
+        "zh": "AI 陪伴宠物",
+        "en": "AI Companion Pet"
       },
       "summary": {
-        "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
-        "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
+        "zh": "柔软毛绒搭配灵动发光蓝眼与编织挂绳，可作桌面萌宠、随行挂饰或送礼之选，为居家与办公增添温暖。",
+        "en": "A soft plush companion with luminous blue eyes and a portable braided loop. A cozy desk buddy, travel charm and thoughtful gift."
       },
       "tag": {
-        "zh": "智能陪伴",
-        "en": "AI COMPANIONS"
+        "zh": "毛绒陪伴 · 便携萌宠",
+        "en": "PLUSH COMPANION"
       },
-      "image": "/resources/products/catalog/ai-companion-robot/images/cover.webp",
+      "image": "/resources/products/catalog/ai-companion-pet/images/ai-companion-pet-cover.png",
       "details": [
         {
           "type": "image",
-          "image": "/resources/products/catalog/ai-companion-robot/details/images/01.webp",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/01.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/01.png"
+          },
           "alt": {
-            "zh": "AI 陪伴机器人",
-            "en": "AI Companion Robot"
+            "zh": "AI 陪伴宠物 · AI 陪伴宠物介绍",
+            "en": "AI Companion Pet · AI Companion Pet overview"
           },
-          "caption": {
-            "zh": "商品展示样稿",
-            "en": "Illustrative product image"
-          }
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "桌面上的一位新伙伴。",
-            "en": "Meet your next desk companion."
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/02.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/02.png"
           },
-          "body": {
-            "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
-            "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
-          }
+          "alt": {
+            "zh": "AI 陪伴宠物 · 正面、45度、侧面与背面多角度展示",
+            "en": "AI Companion Pet · Front, 45-degree, side and back views"
+          },
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "选型与采购沟通",
-            "en": "Let’s talk sourcing"
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/03.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/03.png"
           },
-          "body": {
-            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
-          }
+          "alt": {
+            "zh": "AI 陪伴宠物 · 发光蓝眼、毛绒与挂绳细节",
+            "en": "AI Companion Pet · Glowing eyes, plush texture and hanging loop details"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/04.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "AI 陪伴宠物 · 桌面、床头、出行与送礼使用场景",
+            "en": "AI Companion Pet · Desk, bedside, travel and gifting scenarios"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/05.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "AI 陪伴宠物 · 柔软触感与便携陪伴亮点",
+            "en": "AI Companion Pet · Soft-touch and portable companion highlights"
+          },
+          "caption": ""
         }
       ],
-      "sample": true,
-      "enabled": true
+      "enabled": true,
+      "detailsLayout": "seamless"
     },
     {
       "id": "ai-smart-glasses",
       "category": "electronics",
       "name": {
-        "zh": "AI 智能眼镜",
-        "en": "AI Smart Glasses"
+        "zh": "AI 智能眼镜 AG18",
+        "en": "AI Smart Glasses AG18"
       },
       "summary": {
-        "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
-        "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
+        "zh": "集第一视角拍摄、实时翻译、AI 智能问答与智能笔记于一体，搭配开放式音频，适合通勤、旅行与日常交流。",
+        "en": "First-person capture, real-time translation, AI Q&A and smart notes, with open-ear audio for commuting, travel and everyday conversations."
       },
       "tag": {
-        "zh": "智能穿戴",
-        "en": "SMART WEARABLES"
+        "zh": "AG18 · 智能穿戴",
+        "en": "AG18 · SMART WEARABLES"
       },
-      "image": "/resources/products/catalog/ai-smart-glasses/images/cover.webp",
+      "image": "/resources/products/catalog/ai-smart-glasses/images/ag18-glasses-cover.png",
       "details": [
         {
           "type": "image",
-          "image": "/resources/products/catalog/ai-smart-glasses/details/images/01.webp",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/01.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/01.png"
+          },
           "alt": {
-            "zh": "AI 智能眼镜",
-            "en": "AI Smart Glasses"
+            "zh": "AI 智能眼镜 AG18 · AG18 智能眼镜介绍",
+            "en": "AI Smart Glasses AG18 · AG18 AI smart glasses overview"
           },
-          "caption": {
-            "zh": "商品展示样稿",
-            "en": "Illustrative product image"
-          }
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "智能体验，融入日常佩戴。",
-            "en": "A fresh perspective on everyday life."
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/02.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/02.png"
           },
-          "body": {
-            "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
-            "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
-          }
+          "alt": {
+            "zh": "AI 智能眼镜 AG18 · 拍摄、翻译、问答、智能笔记与开放式音频",
+            "en": "AI Smart Glasses AG18 · Capture, translation, AI Q&A, smart notes and open-ear audio"
+          },
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "选型与采购沟通",
-            "en": "Let’s talk sourcing"
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/03.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/03.png"
           },
-          "body": {
-            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
-          }
+          "alt": {
+            "zh": "AI 智能眼镜 AG18 · 通勤、户外、商务交流与休闲使用场景",
+            "en": "AI Smart Glasses AG18 · Commuting, outdoor, conversation and listening scenarios"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/04.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "AI 智能眼镜 AG18 · 镜头、鼻托、镜架、音频与佩戴细节",
+            "en": "AI Smart Glasses AG18 · Camera, frame, nose pads and wearing details"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/05.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "AI 智能眼镜 AG18 · 产品参数与三视图",
+            "en": "AI Smart Glasses AG18 · Specifications overview and three-view design"
+          },
+          "caption": ""
         }
       ],
-      "sample": true,
-      "enabled": true
+      "enabled": true,
+      "detailsLayout": "seamless"
     },
     {
       "id": "ai-smart-lamp",
       "category": "electronics",
       "name": {
-        "zh": "AI 智能台灯",
-        "en": "AI Smart Desk Lamp"
+        "zh": "逐光者 · AI 智能自适应台灯",
+        "en": "Light Seeker · AI Adaptive Desk Lamp"
       },
       "summary": {
-        "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
-        "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
+        "zh": "实时感知环境与使用状态，学习照明习惯，自动调节亮度与色温；支持 App 智控，适配工作、阅读与放松。",
+        "en": "Real-time sensing and habit learning adapt brightness and tone to your day. App control for focus, reading and unwinding."
       },
       "tag": {
-        "zh": "智能家居",
-        "en": "SMART HOME"
+        "zh": "AI 自适应照明",
+        "en": "AI ADAPTIVE LIGHTING"
       },
-      "image": "/resources/products/catalog/ai-smart-lamp/images/cover.webp",
+      "image": "/resources/products/catalog/ai-smart-lamp/images/light-seeker-cover.png",
       "details": [
         {
           "type": "image",
-          "image": "/resources/products/catalog/ai-smart-lamp/details/images/01.webp",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/01.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/01.png"
+          },
           "alt": {
-            "zh": "AI 智能台灯",
-            "en": "AI Smart Desk Lamp"
+            "zh": "逐光者 AI 智能自适应台灯 · 产品介绍",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Product overview"
           },
-          "caption": {
-            "zh": "商品展示样稿",
-            "en": "Illustrative product image"
-          }
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "点亮桌面，也点亮灵感。",
-            "en": "A little light. A new possibility."
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/02.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/02.png"
           },
-          "body": {
-            "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
-            "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
-          }
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · AI 自适应照明",
+            "en": "Light Seeker AI Adaptive Desk Lamp · AI adaptive lighting"
+          },
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "选型与采购沟通",
-            "en": "Let’s talk sourcing"
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/03.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/03.png"
           },
-          "body": {
-            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
-          }
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 工作、阅读与放松",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Focus, reading and unwinding"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/04.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · App 智控",
+            "en": "Light Seeker AI Adaptive Desk Lamp · App control"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/05.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 多角度调节",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Flexible adjustment"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/06.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/06.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 产品细节",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Product details"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/07.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/07.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 内部结构",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Engineering"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/08.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/08.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 产品尺寸",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Dimensions"
+          },
+          "caption": ""
         }
       ],
-      "sample": true,
-      "enabled": true
+      "enabled": true,
+      "detailsLayout": "seamless"
     },
     {
-      "id": "everyday-apparel",
+      "id": "dt088-toaster",
+      "category": "home-living",
+      "name": {
+        "zh": "DT088 双槽多士炉",
+        "en": "DT088 2-Slice Toaster"
+      },
+      "summary": {
+        "zh": "双槽设计，7 档烘烤程度可调，支持解冻、再加热与一键停止。独立控制杆搭配抽出式集屑盘，让日常早餐与清洁更轻松。",
+        "en": "A 2-slice toaster with 7 browning levels, defrost, reheat and stop functions. An independent lever and removable crumb tray simplify everyday use and cleanup."
+      },
+      "tag": {
+        "zh": "早餐电器 · 双槽多士炉",
+        "en": "BREAKFAST APPLIANCES"
+      },
+      "image": "/resources/products/catalog/dt088-toaster/images/dt088-toaster-cover.png",
+      "details": [
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/dt088-toaster/details/images/en/01.png",
+            "zh": "/resources/products/catalog/dt088-toaster/details/images/zh/01.png"
+          },
+          "alt": {
+            "zh": "DT088 双槽多士炉 · DT088 多士炉与核心功能",
+            "en": "DT088 2-Slice Toaster · DT088 toaster overview"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/dt088-toaster/details/images/en/02.png",
+            "zh": "/resources/products/catalog/dt088-toaster/details/images/zh/02.png"
+          },
+          "alt": {
+            "zh": "DT088 双槽多士炉 · 7 档烘烤、解冻、再加热和停止操作",
+            "en": "DT088 2-Slice Toaster · Seven browning levels, defrost, reheat and stop"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/dt088-toaster/details/images/en/03.png",
+            "zh": "/resources/products/catalog/dt088-toaster/details/images/zh/03.png"
+          },
+          "alt": {
+            "zh": "DT088 双槽多士炉 · 独立控制杆、集屑盘和圆角机身",
+            "en": "DT088 2-Slice Toaster · Independent lever, removable crumb tray and rounded body"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/dt088-toaster/details/images/en/04.png",
+            "zh": "/resources/products/catalog/dt088-toaster/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "DT088 双槽多士炉 · 早餐使用场景与产品参数",
+            "en": "DT088 2-Slice Toaster · Breakfast scenes and product specifications"
+          },
+          "caption": ""
+        }
+      ],
+      "enabled": true,
+      "detailsLayout": "seamless"
+    },
+    {
+      "id": "tang-dynasty-ramie-hanfu",
       "category": "clothing",
       "name": {
-        "zh": "日常服装精选",
-        "en": "Everyday Apparel"
+        "zh": "中国盛唐汉服",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu"
       },
       "summary": {
-        "zh": "从简洁款式开始，发现适合日常穿着的服装。",
-        "en": "Simple silhouettes and everyday essentials. Explore our apparel selection."
+        "zh": "轻薄透气的苎麻面料，赤陶红团花纹样与黛青撞色层次，搭配宽袖与系带，展现自然垂感。提供 S / M / L / XL 四个尺码。",
+        "en": "Lightweight, breathable ramie with a terracotta-red floral print, muted teal layers and flowing wide sleeves. Available in S / M / L / XL."
       },
       "tag": {
-        "zh": "日常服装",
-        "en": "EVERYDAY APPAREL"
+        "zh": "盛唐灵感 · 苎麻汉服",
+        "en": "TANG-INSPIRED RAMIE HANFU"
       },
-      "image": "/resources/products/catalog/everyday-apparel/images/cover.webp",
+      "image": "/resources/products/catalog/tang-dynasty-ramie-hanfu/images/hanfu-cover.png",
       "details": [
         {
           "type": "image",
-          "image": "/resources/products/catalog/everyday-apparel/details/images/01.webp",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/01.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/01.png"
+          },
           "alt": {
-            "zh": "日常服装精选",
-            "en": "Everyday Apparel"
+            "zh": "中国盛唐汉服 · 苎麻印花汉服介绍",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Ramie Hanfu overview"
           },
-          "caption": {
-            "zh": "商品展示样稿",
-            "en": "Illustrative product image"
-          }
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "从简洁款式，开始日常穿搭。",
-            "en": "Simple silhouettes for everyday life."
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/02.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/02.png"
           },
-          "body": {
-            "zh": "从简洁款式开始，发现适合日常穿着的服装。",
-            "en": "Simple silhouettes and everyday essentials. Explore our apparel selection."
-          }
+          "alt": {
+            "zh": "中国盛唐汉服 · 模特与宽袖交领展示",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Sizes S, M, L and XL"
+          },
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "选型与采购沟通",
-            "en": "Let’s talk sourcing"
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/03.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/03.png"
           },
-          "body": {
-            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
-          }
+          "alt": {
+            "zh": "中国盛唐汉服 · 苎麻面料与细节平铺",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Ramie texture and garment details"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/04.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 赤陶红与黛青蓝的配色纹样",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Terracotta and teal floral pattern"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/05.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · S、M、L、XL 尺码信息",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Front and back model showcase"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/06.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/06.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 出游与写真场景",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Scene and mood"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/07.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/07.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 交领、宽袖与系带穿搭亮点",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Layered collar, wide sleeves and sash"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/08.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/08.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 全身与服装局部展示",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Full outfit and close-up views"
+          },
+          "caption": ""
         }
       ],
-      "sample": true,
-      "enabled": true
+      "enabled": true,
+      "detailsLayout": "seamless"
     },
     {
-      "id": "travel-organizer",
-      "category": "other",
+      "id": "wendan-pomelo-fragrance",
+      "category": "fragrance-beauty",
       "name": {
-        "zh": "旅行收纳包",
-        "en": "Travel Organizer"
+        "zh": "中国文旦柚香氛",
+        "en": "Wendan Pomelo Fragrance"
       },
       "summary": {
-        "zh": "把日常小物妥善安放，为出行留一点从容。",
-        "en": "A considered place for your everyday essentials. Ready for your next journey."
+        "zh": "灵感源于福建仙游文旦柚，融合多汁柚香与雅致花香。赤柚香韵、青柚花语两款香型，适配香水、家居香氛与洗护场景。",
+        "en": "Wendan pomelo from Xianyou, Fujian inspires two scents: juicy floral-fruity Crimson Pomelo X and fresh citrus-floral Jade Pomelo Bloom."
       },
       "tag": {
-        "zh": "生活好物",
-        "en": "EVERYDAY GOODS"
+        "zh": "文旦柚香氛",
+        "en": "POMELO FRAGRANCE"
       },
-      "image": "/resources/products/catalog/travel-organizer/images/cover.webp",
+      "image": "/resources/products/catalog/wendan-pomelo-fragrance/images/pomelo-fragrance-cover.png",
       "details": [
         {
           "type": "image",
-          "image": "/resources/products/catalog/travel-organizer/details/images/01.webp",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/01.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/01.png"
+          },
           "alt": {
-            "zh": "旅行收纳包",
-            "en": "Travel Organizer"
+            "zh": "中国文旦柚香氛 · 文旦柚香氛介绍",
+            "en": "Wendan Pomelo Fragrance · Fragrance overview"
           },
-          "caption": {
-            "zh": "商品展示样稿",
-            "en": "Illustrative product image"
-          }
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "让随身小物，各得其所。",
-            "en": "A place for the things you take along."
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/02.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/02.png"
           },
-          "body": {
-            "zh": "把日常小物妥善安放，为出行留一点从容。",
-            "en": "A considered place for your everyday essentials. Ready for your next journey."
-          }
+          "alt": {
+            "zh": "中国文旦柚香氛 · 中国文旦柚",
+            "en": "Wendan Pomelo Fragrance · Wendan pomelo from China"
+          },
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "选型与采购沟通",
-            "en": "Let’s talk sourcing"
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/03.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/03.png"
           },
-          "body": {
-            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
-          }
+          "alt": {
+            "zh": "中国文旦柚香氛 · 福建仙游地理风土",
+            "en": "Wendan Pomelo Fragrance · The terroir of Xianyou, Fujian"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/04.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 时间与甄选",
+            "en": "Wendan Pomelo Fragrance · Time and selection"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/05.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 赤柚香韵与青柚花语",
+            "en": "Wendan Pomelo Fragrance · Crimson Pomelo X and Jade Pomelo Bloom"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/06.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/06.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 多元应用场景",
+            "en": "Wendan Pomelo Fragrance · Versatile applications"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/07.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/07.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 中国文旦柚的香气记忆",
+            "en": "Wendan Pomelo Fragrance · The scent of Chinese Wendan pomelo"
+          },
+          "caption": ""
         }
       ],
-      "sample": true,
-      "enabled": true
+      "enabled": true,
+      "detailsLayout": "seamless"
     }
   ],
   "featured": [
@@ -469,169 +786,577 @@
       "id": "ai-smart-glasses",
       "category": "electronics",
       "name": {
-        "zh": "AI 智能眼镜",
-        "en": "AI Smart Glasses"
+        "zh": "AI 智能眼镜 AG18",
+        "en": "AI Smart Glasses AG18"
       },
       "summary": {
-        "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
-        "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
+        "zh": "集第一视角拍摄、实时翻译、AI 智能问答与智能笔记于一体，搭配开放式音频，适合通勤、旅行与日常交流。",
+        "en": "First-person capture, real-time translation, AI Q&A and smart notes, with open-ear audio for commuting, travel and everyday conversations."
       },
       "tag": {
-        "zh": "智能穿戴",
-        "en": "SMART WEARABLES"
+        "zh": "AG18 · 智能穿戴",
+        "en": "AG18 · SMART WEARABLES"
       },
-      "image": "/resources/products/featured/01-ai-smart-glasses/images/cover.webp",
+      "image": "/resources/products/featured/01-ai-smart-glasses/images/ag18-glasses-cover.png",
       "details": [
         {
           "type": "image",
-          "image": "/resources/products/catalog/ai-smart-glasses/details/images/01.webp",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/01.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/01.png"
+          },
           "alt": {
-            "zh": "AI 智能眼镜",
-            "en": "AI Smart Glasses"
+            "zh": "AI 智能眼镜 AG18 · AG18 智能眼镜介绍",
+            "en": "AI Smart Glasses AG18 · AG18 AI smart glasses overview"
           },
-          "caption": {
-            "zh": "商品展示样稿",
-            "en": "Illustrative product image"
-          }
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "智能体验，融入日常佩戴。",
-            "en": "A fresh perspective on everyday life."
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/02.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/02.png"
           },
-          "body": {
-            "zh": "把智能体验融入日常佩戴，探索新一代智能眼镜。",
-            "en": "A new perspective on wearable intelligence. Discover AI eyewear for everyday life."
-          }
+          "alt": {
+            "zh": "AI 智能眼镜 AG18 · 拍摄、翻译、问答、智能笔记与开放式音频",
+            "en": "AI Smart Glasses AG18 · Capture, translation, AI Q&A, smart notes and open-ear audio"
+          },
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "选型与采购沟通",
-            "en": "Let’s talk sourcing"
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/03.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/03.png"
           },
-          "body": {
-            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
-          }
+          "alt": {
+            "zh": "AI 智能眼镜 AG18 · 通勤、户外、商务交流与休闲使用场景",
+            "en": "AI Smart Glasses AG18 · Commuting, outdoor, conversation and listening scenarios"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/04.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "AI 智能眼镜 AG18 · 镜头、鼻托、镜架、音频与佩戴细节",
+            "en": "AI Smart Glasses AG18 · Camera, frame, nose pads and wearing details"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-glasses/details/images/en/05.png",
+            "zh": "/resources/products/catalog/ai-smart-glasses/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "AI 智能眼镜 AG18 · 产品参数与三视图",
+            "en": "AI Smart Glasses AG18 · Specifications overview and three-view design"
+          },
+          "caption": ""
         }
       ],
-      "sample": true,
       "enabled": true,
+      "detailsLayout": "seamless",
       "productId": "ai-smart-glasses"
-    },
-    {
-      "id": "ai-companion-robot",
-      "category": "electronics",
-      "name": {
-        "zh": "AI 陪伴机器人",
-        "en": "AI Companion Robot"
-      },
-      "summary": {
-        "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
-        "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
-      },
-      "tag": {
-        "zh": "智能陪伴",
-        "en": "AI COMPANIONS"
-      },
-      "image": "/resources/products/featured/02-ai-companion-robot/images/cover.webp",
-      "details": [
-        {
-          "type": "image",
-          "image": "/resources/products/catalog/ai-companion-robot/details/images/01.webp",
-          "alt": {
-            "zh": "AI 陪伴机器人",
-            "en": "AI Companion Robot"
-          },
-          "caption": {
-            "zh": "商品展示样稿",
-            "en": "Illustrative product image"
-          }
-        },
-        {
-          "type": "text",
-          "title": {
-            "zh": "桌面上的一位新伙伴。",
-            "en": "Meet your next desk companion."
-          },
-          "body": {
-            "zh": "一位桌面上的新伙伴，为日常增添一点温暖与灵感。",
-            "en": "A little desk companion with a lot of personality. A warmer way to explore AI."
-          }
-        },
-        {
-          "type": "text",
-          "title": {
-            "zh": "选型与采购沟通",
-            "en": "Let’s talk sourcing"
-          },
-          "body": {
-            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
-          }
-        }
-      ],
-      "sample": true,
-      "enabled": true,
-      "productId": "ai-companion-robot"
     },
     {
       "id": "ai-smart-lamp",
       "category": "electronics",
       "name": {
-        "zh": "AI 智能台灯",
-        "en": "AI Smart Desk Lamp"
+        "zh": "逐光者 · AI 智能自适应台灯",
+        "en": "Light Seeker · AI Adaptive Desk Lamp"
       },
       "summary": {
-        "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
-        "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
+        "zh": "实时感知环境与使用状态，学习照明习惯，自动调节亮度与色温；支持 App 智控，适配工作、阅读与放松。",
+        "en": "Real-time sensing and habit learning adapt brightness and tone to your day. App control for focus, reading and unwinding."
       },
       "tag": {
-        "zh": "智能家居",
-        "en": "SMART HOME"
+        "zh": "AI 自适应照明",
+        "en": "AI ADAPTIVE LIGHTING"
       },
-      "image": "/resources/products/featured/03-ai-smart-lamp/images/cover.webp",
+      "image": "/resources/products/featured/03-ai-smart-lamp/images/light-seeker-cover.png",
       "details": [
         {
           "type": "image",
-          "image": "/resources/products/catalog/ai-smart-lamp/details/images/01.webp",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/01.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/01.png"
+          },
           "alt": {
-            "zh": "AI 智能台灯",
-            "en": "AI Smart Desk Lamp"
+            "zh": "逐光者 AI 智能自适应台灯 · 产品介绍",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Product overview"
           },
-          "caption": {
-            "zh": "商品展示样稿",
-            "en": "Illustrative product image"
-          }
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "点亮桌面，也点亮灵感。",
-            "en": "A little light. A new possibility."
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/02.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/02.png"
           },
-          "body": {
-            "zh": "以简洁设计点亮桌面，探索更舒适的智能照明。",
-            "en": "Considered design meets intelligent lighting. A fresh take on your desk essentials."
-          }
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · AI 自适应照明",
+            "en": "Light Seeker AI Adaptive Desk Lamp · AI adaptive lighting"
+          },
+          "caption": ""
         },
         {
-          "type": "text",
-          "title": {
-            "zh": "选型与采购沟通",
-            "en": "Let’s talk sourcing"
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/03.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/03.png"
           },
-          "body": {
-            "zh": "告诉我们你感兴趣的款式、采购数量与销售地区。\n\n也欢迎说明包装、样品或其他需求，我们将与你进一步确认商品资料与合作安排。",
-            "en": "Tell us which styles interest you, the quantity you have in mind, and your sales region.\n\nYou can also share packaging, sample, or other requirements so we can discuss product information and next steps."
-          }
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 工作、阅读与放松",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Focus, reading and unwinding"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/04.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · App 智控",
+            "en": "Light Seeker AI Adaptive Desk Lamp · App control"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/05.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 多角度调节",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Flexible adjustment"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/06.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/06.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 产品细节",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Product details"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/07.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/07.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 内部结构",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Engineering"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-smart-lamp/details/images/en/08.png",
+            "zh": "/resources/products/catalog/ai-smart-lamp/details/images/zh/08.png"
+          },
+          "alt": {
+            "zh": "逐光者 AI 智能自适应台灯 · 产品尺寸",
+            "en": "Light Seeker AI Adaptive Desk Lamp · Dimensions"
+          },
+          "caption": ""
         }
       ],
-      "sample": true,
       "enabled": true,
+      "detailsLayout": "seamless",
       "productId": "ai-smart-lamp"
+    },
+    {
+      "id": "wendan-pomelo-fragrance",
+      "category": "fragrance-beauty",
+      "name": {
+        "zh": "中国文旦柚香氛",
+        "en": "Wendan Pomelo Fragrance"
+      },
+      "summary": {
+        "zh": "灵感源于福建仙游文旦柚，融合多汁柚香与雅致花香。赤柚香韵、青柚花语两款香型，适配香水、家居香氛与洗护场景。",
+        "en": "Wendan pomelo from Xianyou, Fujian inspires two scents: juicy floral-fruity Crimson Pomelo X and fresh citrus-floral Jade Pomelo Bloom."
+      },
+      "tag": {
+        "zh": "文旦柚香氛",
+        "en": "POMELO FRAGRANCE"
+      },
+      "image": "/resources/products/featured/04-wendan-pomelo-fragrance/images/pomelo-fragrance-cover.png",
+      "details": [
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/01.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/01.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 文旦柚香氛介绍",
+            "en": "Wendan Pomelo Fragrance · Fragrance overview"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/02.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/02.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 中国文旦柚",
+            "en": "Wendan Pomelo Fragrance · Wendan pomelo from China"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/03.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/03.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 福建仙游地理风土",
+            "en": "Wendan Pomelo Fragrance · The terroir of Xianyou, Fujian"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/04.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 时间与甄选",
+            "en": "Wendan Pomelo Fragrance · Time and selection"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/05.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 赤柚香韵与青柚花语",
+            "en": "Wendan Pomelo Fragrance · Crimson Pomelo X and Jade Pomelo Bloom"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/06.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/06.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 多元应用场景",
+            "en": "Wendan Pomelo Fragrance · Versatile applications"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/en/07.png",
+            "zh": "/resources/products/catalog/wendan-pomelo-fragrance/details/images/zh/07.png"
+          },
+          "alt": {
+            "zh": "中国文旦柚香氛 · 中国文旦柚的香气记忆",
+            "en": "Wendan Pomelo Fragrance · The scent of Chinese Wendan pomelo"
+          },
+          "caption": ""
+        }
+      ],
+      "enabled": true,
+      "detailsLayout": "seamless",
+      "productId": "wendan-pomelo-fragrance"
+    },
+    {
+      "id": "tang-dynasty-ramie-hanfu",
+      "category": "clothing",
+      "name": {
+        "zh": "中国盛唐汉服",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu"
+      },
+      "summary": {
+        "zh": "轻薄透气的苎麻面料，赤陶红团花纹样与黛青撞色层次，搭配宽袖与系带，展现自然垂感。提供 S / M / L / XL 四个尺码。",
+        "en": "Lightweight, breathable ramie with a terracotta-red floral print, muted teal layers and flowing wide sleeves. Available in S / M / L / XL."
+      },
+      "tag": {
+        "zh": "盛唐灵感 · 苎麻汉服",
+        "en": "TANG-INSPIRED RAMIE HANFU"
+      },
+      "image": "/resources/products/featured/05-tang-dynasty-ramie-hanfu/images/hanfu-cover.png",
+      "details": [
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/01.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/01.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 苎麻印花汉服介绍",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Ramie Hanfu overview"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/02.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/02.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 模特与宽袖交领展示",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Sizes S, M, L and XL"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/03.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/03.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 苎麻面料与细节平铺",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Ramie texture and garment details"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/04.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 赤陶红与黛青蓝的配色纹样",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Terracotta and teal floral pattern"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/05.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · S、M、L、XL 尺码信息",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Front and back model showcase"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/06.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/06.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 出游与写真场景",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Scene and mood"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/07.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/07.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 交领、宽袖与系带穿搭亮点",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Layered collar, wide sleeves and sash"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/en/08.png",
+            "zh": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/images/zh/08.png"
+          },
+          "alt": {
+            "zh": "中国盛唐汉服 · 全身与服装局部展示",
+            "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Full outfit and close-up views"
+          },
+          "caption": ""
+        }
+      ],
+      "enabled": true,
+      "detailsLayout": "seamless",
+      "productId": "tang-dynasty-ramie-hanfu"
+    },
+    {
+      "id": "dt088-toaster",
+      "category": "home-living",
+      "name": {
+        "zh": "DT088 双槽多士炉",
+        "en": "DT088 2-Slice Toaster"
+      },
+      "summary": {
+        "zh": "双槽设计，7 档烘烤程度可调，支持解冻、再加热与一键停止。独立控制杆搭配抽出式集屑盘，让日常早餐与清洁更轻松。",
+        "en": "A 2-slice toaster with 7 browning levels, defrost, reheat and stop functions. An independent lever and removable crumb tray simplify everyday use and cleanup."
+      },
+      "tag": {
+        "zh": "早餐电器 · 双槽多士炉",
+        "en": "BREAKFAST APPLIANCES"
+      },
+      "image": "/resources/products/featured/06-dt088-toaster/images/dt088-toaster-cover.png",
+      "details": [
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/dt088-toaster/details/images/en/01.png",
+            "zh": "/resources/products/catalog/dt088-toaster/details/images/zh/01.png"
+          },
+          "alt": {
+            "zh": "DT088 双槽多士炉 · DT088 多士炉与核心功能",
+            "en": "DT088 2-Slice Toaster · DT088 toaster overview"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/dt088-toaster/details/images/en/02.png",
+            "zh": "/resources/products/catalog/dt088-toaster/details/images/zh/02.png"
+          },
+          "alt": {
+            "zh": "DT088 双槽多士炉 · 7 档烘烤、解冻、再加热和停止操作",
+            "en": "DT088 2-Slice Toaster · Seven browning levels, defrost, reheat and stop"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/dt088-toaster/details/images/en/03.png",
+            "zh": "/resources/products/catalog/dt088-toaster/details/images/zh/03.png"
+          },
+          "alt": {
+            "zh": "DT088 双槽多士炉 · 独立控制杆、集屑盘和圆角机身",
+            "en": "DT088 2-Slice Toaster · Independent lever, removable crumb tray and rounded body"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/dt088-toaster/details/images/en/04.png",
+            "zh": "/resources/products/catalog/dt088-toaster/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "DT088 双槽多士炉 · 早餐使用场景与产品参数",
+            "en": "DT088 2-Slice Toaster · Breakfast scenes and product specifications"
+          },
+          "caption": ""
+        }
+      ],
+      "enabled": true,
+      "detailsLayout": "seamless",
+      "productId": "dt088-toaster"
+    },
+    {
+      "id": "ai-companion-pet",
+      "category": "electronics",
+      "name": {
+        "zh": "AI 陪伴宠物",
+        "en": "AI Companion Pet"
+      },
+      "summary": {
+        "zh": "柔软毛绒搭配灵动发光蓝眼与编织挂绳，可作桌面萌宠、随行挂饰或送礼之选，为居家与办公增添温暖。",
+        "en": "A soft plush companion with luminous blue eyes and a portable braided loop. A cozy desk buddy, travel charm and thoughtful gift."
+      },
+      "tag": {
+        "zh": "毛绒陪伴 · 便携萌宠",
+        "en": "PLUSH COMPANION"
+      },
+      "image": "/resources/products/featured/07-ai-companion-pet/images/ai-companion-pet-cover.png",
+      "details": [
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/01.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/01.png"
+          },
+          "alt": {
+            "zh": "AI 陪伴宠物 · AI 陪伴宠物介绍",
+            "en": "AI Companion Pet · AI Companion Pet overview"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/02.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/02.png"
+          },
+          "alt": {
+            "zh": "AI 陪伴宠物 · 正面、45度、侧面与背面多角度展示",
+            "en": "AI Companion Pet · Front, 45-degree, side and back views"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/03.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/03.png"
+          },
+          "alt": {
+            "zh": "AI 陪伴宠物 · 发光蓝眼、毛绒与挂绳细节",
+            "en": "AI Companion Pet · Glowing eyes, plush texture and hanging loop details"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/04.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/04.png"
+          },
+          "alt": {
+            "zh": "AI 陪伴宠物 · 桌面、床头、出行与送礼使用场景",
+            "en": "AI Companion Pet · Desk, bedside, travel and gifting scenarios"
+          },
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "image": {
+            "en": "/resources/products/catalog/ai-companion-pet/details/images/en/05.png",
+            "zh": "/resources/products/catalog/ai-companion-pet/details/images/zh/05.png"
+          },
+          "alt": {
+            "zh": "AI 陪伴宠物 · 柔软触感与便携陪伴亮点",
+            "en": "AI Companion Pet · Soft-touch and portable companion highlights"
+          },
+          "caption": ""
+        }
+      ],
+      "enabled": true,
+      "detailsLayout": "seamless",
+      "productId": "ai-companion-pet"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "category": "clothing",
+  "name": {
+    "zh": "中国盛唐汉服",
+    "en": "Tang Dynasty Mural-Inspired Ramie Hanfu"
+  },
+  "summary": {
+    "zh": "轻薄透气的苎麻面料，赤陶红团花纹样与黛青撞色层次，搭配宽袖与系带，展现自然垂感。提供 S / M / L / XL 四个尺码。",
+    "en": "Lightweight, breathable ramie with a terracotta-red floral print, muted teal layers and flowing wide sleeves. Available in S / M / L / XL."
+  },
+  "tag": {
+    "zh": "盛唐灵感 · 苎麻汉服",
+    "en": "TANG-INSPIRED RAMIE HANFU"
+  },
+  "image": "images/hanfu-cover.png"
+}

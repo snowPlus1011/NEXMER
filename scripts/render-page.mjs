@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 import ts from "typescript";
 import React from "react";
 import { renderToString } from "react-dom/server";
+import { getPageTitle } from "../lib/content-core.mjs";
 
 // React runs here only while generating HTML, never on the website's host.
 export async function loadSiteRenderer(projectRoot = process.cwd()) {
@@ -29,13 +30,13 @@ export function escapeHTML(value) {
 const localize = (value, language) => typeof value === "string" ? value : value?.[language] || value?.zh || value?.en || "";
 
 export function renderPage(template, content, options, render) {
-  const language = content.navigation.defaultLanguage === "en" ? "en" : "zh";
+  const language = content.navigation.defaultLanguage === "zh" ? "zh" : "en";
   const product = options.mode === "detail" ? content.catalog.find(item => item.id === options.productId) : null;
-  const title = product ? `${localize(product.name, language)} | ${content.navigation.brand}` : options.mode === "catalog" ? `${language === "zh" ? "商品目录" : "The collection"} | ${content.navigation.brand}` : `${content.navigation.brand} | ${localize(content.navigation.tagline, language)}`;
+  const title = getPageTitle(content, options.mode, options.productId, language);
   const description = product ? localize(product.summary, language) : content.about.sentences.map(sentence => localize(sentence, language)).join(" ");
   const pageData = JSON.stringify(options).replace(/</g, "\\u003c");
   return template
-    .replace('<html lang="zh-CN">', `<html lang="${language === "zh" ? "zh-CN" : "en"}">`)
+    .replace(/<html lang="[^"]*">/, `<html lang="${language === "zh" ? "zh-CN" : "en"}">`)
     .replace("__SITE_TITLE__", () => escapeHTML(title))
     .replace("__SITE_DESCRIPTION__", () => escapeHTML(description))
     .replace('<div id="root"></div>', () => `<div id="root">${render({ initialContent: content, ...options })}</div>`)

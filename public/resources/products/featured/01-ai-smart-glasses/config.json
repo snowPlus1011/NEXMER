@@ -1,5 +1,17 @@
 {
   "enabled": true,
   "productId": "ai-smart-glasses",
-  "image": "images/cover.webp"
+  "name": {
+    "zh": "AI 智能眼镜 AG18",
+    "en": "AI Smart Glasses AG18"
+  },
+  "summary": {
+    "zh": "集第一视角拍摄、实时翻译、AI 智能问答与智能笔记于一体，搭配开放式音频，适合通勤、旅行与日常交流。",
+    "en": "First-person capture, real-time translation, AI Q&A and smart notes, with open-ear audio for commuting, travel and everyday conversations."
+  },
+  "tag": {
+    "zh": "AG18 · 智能穿戴",
+    "en": "AG18 · SMART WEARABLES"
+  },
+  "image": "images/ag18-glasses-cover.png"
 }

@@ -15,6 +15,8 @@ test("missing modules and partial bilingual fields retain usable defaults", asyn
   await config(root, "about", { title: "我的展示站", sentences: [{ zh: "第一句话" }] });
   const { snapshot } = await syncContent(root, true);
   assert.equal(snapshot.navigation.brand, "Test Trade");
+  assert.equal(snapshot.navigation.defaultLanguage, "en");
+  assert.equal(snapshot.navigation.siteTitle, "NEXMER｜AI Products from China");
   assert.equal(snapshot.navigation.links[0].label.zh, "认识我们");
   assert.equal(snapshot.navigation.links[1].label.zh, "商品中心");
   assert.equal(snapshot.navigation.links[1].label.en, "Our products");
@@ -49,10 +51,21 @@ test("category overrides match IDs and preserve unspecified categories", async t
   const root = await fixture(t);
   await config(root, "products/categories", { items: [{ id: "electronics", name: { zh: "智能电子" } }, { id: "accessories", name: "配件" }] });
   const { snapshot } = await syncContent(root, true);
-  assert.deepEqual(snapshot.categories.items.map(item => item.id), ["all", "electronics", "clothing", "other", "accessories"]);
+  assert.deepEqual(snapshot.categories.items.map(item => item.id), ["all", "electronics", "home-living", "fragrance-beauty", "clothing", "accessories"]);
   assert.equal(snapshot.categories.items[1].name.zh, "智能电子");
-  assert.equal(snapshot.categories.items[1].name.en, "Electronics");
-  assert.equal(snapshot.categories.items[4].name, "配件");
+  assert.equal(snapshot.categories.items[1].name.en, "Smart Electronics");
+  assert.equal(snapshot.categories.items[5].name, "配件");
+});
+
+test("category image positions preserve valid framing and reject invalid coordinates", async t => {
+  const root = await fixture(t);
+  await config(root, "products/categories", { items: [{ id: "clothing", imagePosition: "50% 0%" }] });
+  const { snapshot } = await syncContent(root, true);
+  assert.equal(snapshot.categories.items.find(item => item.id === "clothing").imagePosition, "50% 0%");
+  for (const imagePosition of ["50%", "50% 101%", "left top", [50, 0]]) {
+    await config(root, "products/categories", { items: [{ id: "clothing", imagePosition }] });
+    await assert.rejects(() => syncContent(root, true), /clothing.*imagePosition/);
+  }
 });
 test("missing cover/detail images use a real fallback path", async t => {
   const root = await fixture(t);
@@ -101,6 +114,20 @@ test("image paths cannot read outside their module folders", async t => {
   const root = await fixture(t);
   await config(root, "about", { image: "../../private.webp" });
   await assert.rejects(() => syncContent(root, true), /相对图片路径/);
+});
+
+test("WhatsApp QR resources resolve locally, disappear when missing, and reject external paths", async t => {
+  const root = await fixture(t);
+  const support = await config(root, "support", { whatsappQrImage: "images/qr.svg" });
+  await image(support, "images/qr.svg");
+  let result = await syncContent(root, true);
+  assert.equal(result.snapshot.support.whatsappQrImage, "/resources/support/images/qr.svg");
+  await rm(path.join(support, "images/qr.svg"));
+  result = await syncContent(root, true);
+  assert.equal(result.snapshot.support.whatsappQrImage, "");
+  assert.equal(result.warnings.length, 1);
+  await config(root, "support", { whatsappQrImage: "https://example.com/qr.svg" });
+  await assert.rejects(() => syncContent(root, true), /whatsappQrImage.*相对图片路径/);
 });
 test("detail JSON controls mixed block order, relative image paths and unreferenced images", async t => {
   const root = await fixture(t);
@@ -163,9 +190,41 @@ test("invalid detail JSON, block types, text and paths identify the detail filen
     { blocks: [{ type: "text", body: ["wrong"] }] },
     { blocks: [{ type: "image", image: "../images/private.webp" }] },
     { blocks: [{ type: "image", image: "images/../../private.webp" }] },
-    { blocks: [{ type: "image", image: "https://example.com/image.webp" }] }
+    { blocks: [{ type: "image", image: "https://example.com/image.webp" }] },
+    { blocks: [{ type: "image", image: {} }] },
+    { blocks: [{ type: "image", image: { fr: "images/01.webp" } }] },
+    { blocks: [{ type: "image", image: { en: "../private.webp" } }] },
+    { blocks: [{ type: "image", image: { en: ["images/01.webp"] } }] },
+    { blocks: [{ type: "image", image: { zh: 42 } }] },
+    { layout: "wrong", blocks: [] }
   ]) {
     await config(root, directory, value);
     await assert.rejects(() => syncContent(root, true), /broken-product\/details\/config.json/);
   }
+});
+
+test("paired language images keep JSON order, support one-language fallback and synchronize identically", async t => {
+  const root = await fixture(t);
+  const product = await config(root, "products/catalog/bilingual-product", { image: "images/cover.webp" });
+  await image(product, "images/cover.webp");
+  for (const file of ["en/02.png", "zh/02.png", "en/01.png"]) await image(product, `details/images/${file}`);
+  await config(root, "products/catalog/bilingual-product/details", { layout: "seamless", blocks: [
+    { type: "image", image: { en: "images/en/02.png", zh: "images/zh/02.png" } },
+    { type: "image", image: { en: "images/en/01.png", zh: "images/zh/missing.png" } },
+    { type: "image", image: { en: "images/en/01.png" } },
+    { type: "image", image: { en: "images/en/missing.png", zh: "images/zh/missing.png" } }
+  ] });
+  const { index, snapshot, warnings } = await syncContent(root, true);
+  const blocks = snapshot.catalog[0].details;
+  assert.equal(snapshot.catalog[0].detailsLayout, "seamless");
+  assert.ok(blocks[0].image.en.endsWith("/en/02.png"));
+  assert.ok(blocks[0].image.zh.endsWith("/zh/02.png"));
+  assert.ok(blocks[1].image.en.endsWith("/en/01.png"));
+  assert.equal(blocks[1].image.zh, blocks[1].image.en);
+  assert.equal(blocks[2].image.zh, blocks[2].image.en);
+  assert.deepEqual(blocks[3].image, { en: snapshot.catalog[0].image, zh: snapshot.catalog[0].image });
+  assert.equal(warnings.length, 3);
+  assert.match(warnings[0], /blocks\[1\].*image.zh/);
+  const browserResult = await loadContent(index, async url => JSON.parse(await readFile(path.join(root, "public", url), "utf8")));
+  assert.deepEqual(browserResult, snapshot);
 });

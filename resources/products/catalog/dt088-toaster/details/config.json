@@ -1,0 +1,49 @@
+{
+  "layout": "seamless",
+  "blocks": [
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/01.png",
+        "en": "images/en/01.png"
+      },
+      "alt": {
+        "zh": "DT088 双槽多士炉 · DT088 多士炉与核心功能",
+        "en": "DT088 2-Slice Toaster · DT088 toaster overview"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/02.png",
+        "en": "images/en/02.png"
+      },
+      "alt": {
+        "zh": "DT088 双槽多士炉 · 7 档烘烤、解冻、再加热和停止操作",
+        "en": "DT088 2-Slice Toaster · Seven browning levels, defrost, reheat and stop"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/03.png",
+        "en": "images/en/03.png"
+      },
+      "alt": {
+        "zh": "DT088 双槽多士炉 · 独立控制杆、集屑盘和圆角机身",
+        "en": "DT088 2-Slice Toaster · Independent lever, removable crumb tray and rounded body"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/04.png",
+        "en": "images/en/04.png"
+      },
+      "alt": {
+        "zh": "DT088 双槽多士炉 · 早餐使用场景与产品参数",
+        "en": "DT088 2-Slice Toaster · Breakfast scenes and product specifications"
+      }
+    }
+  ]
+}

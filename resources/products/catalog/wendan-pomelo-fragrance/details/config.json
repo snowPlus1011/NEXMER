@@ -1,0 +1,82 @@
+{
+  "layout": "seamless",
+  "blocks": [
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/01.png",
+        "en": "images/en/01.png"
+      },
+      "alt": {
+        "zh": "中国文旦柚香氛 · 文旦柚香氛介绍",
+        "en": "Wendan Pomelo Fragrance · Fragrance overview"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/02.png",
+        "en": "images/en/02.png"
+      },
+      "alt": {
+        "zh": "中国文旦柚香氛 · 中国文旦柚",
+        "en": "Wendan Pomelo Fragrance · Wendan pomelo from China"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/03.png",
+        "en": "images/en/03.png"
+      },
+      "alt": {
+        "zh": "中国文旦柚香氛 · 福建仙游地理风土",
+        "en": "Wendan Pomelo Fragrance · The terroir of Xianyou, Fujian"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/04.png",
+        "en": "images/en/04.png"
+      },
+      "alt": {
+        "zh": "中国文旦柚香氛 · 时间与甄选",
+        "en": "Wendan Pomelo Fragrance · Time and selection"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/05.png",
+        "en": "images/en/05.png"
+      },
+      "alt": {
+        "zh": "中国文旦柚香氛 · 赤柚香韵与青柚花语",
+        "en": "Wendan Pomelo Fragrance · Crimson Pomelo X and Jade Pomelo Bloom"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/06.png",
+        "en": "images/en/06.png"
+      },
+      "alt": {
+        "zh": "中国文旦柚香氛 · 多元应用场景",
+        "en": "Wendan Pomelo Fragrance · Versatile applications"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/07.png",
+        "en": "images/en/07.png"
+      },
+      "alt": {
+        "zh": "中国文旦柚香氛 · 中国文旦柚的香气记忆",
+        "en": "Wendan Pomelo Fragrance · The scent of Chinese Wendan pomelo"
+      }
+    }
+  ]
+}

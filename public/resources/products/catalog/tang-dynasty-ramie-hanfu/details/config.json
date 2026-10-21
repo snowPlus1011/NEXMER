@@ -1,0 +1,93 @@
+{
+  "layout": "seamless",
+  "blocks": [
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/01.png",
+        "en": "images/en/01.png"
+      },
+      "alt": {
+        "zh": "中国盛唐汉服 · 苎麻印花汉服介绍",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Ramie Hanfu overview"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/02.png",
+        "en": "images/en/02.png"
+      },
+      "alt": {
+        "zh": "中国盛唐汉服 · 模特与宽袖交领展示",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Sizes S, M, L and XL"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/03.png",
+        "en": "images/en/03.png"
+      },
+      "alt": {
+        "zh": "中国盛唐汉服 · 苎麻面料与细节平铺",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Ramie texture and garment details"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/04.png",
+        "en": "images/en/04.png"
+      },
+      "alt": {
+        "zh": "中国盛唐汉服 · 赤陶红与黛青蓝的配色纹样",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Terracotta and teal floral pattern"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/05.png",
+        "en": "images/en/05.png"
+      },
+      "alt": {
+        "zh": "中国盛唐汉服 · S、M、L、XL 尺码信息",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Front and back model showcase"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/06.png",
+        "en": "images/en/06.png"
+      },
+      "alt": {
+        "zh": "中国盛唐汉服 · 出游与写真场景",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Scene and mood"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/07.png",
+        "en": "images/en/07.png"
+      },
+      "alt": {
+        "zh": "中国盛唐汉服 · 交领、宽袖与系带穿搭亮点",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Layered collar, wide sleeves and sash"
+      }
+    },
+    {
+      "type": "image",
+      "image": {
+        "zh": "images/zh/08.png",
+        "en": "images/en/08.png"
+      },
+      "alt": {
+        "zh": "中国盛唐汉服 · 全身与服装局部展示",
+        "en": "Tang Dynasty Mural-Inspired Ramie Hanfu · Full outfit and close-up views"
+      }
+    }
+  ]
+}

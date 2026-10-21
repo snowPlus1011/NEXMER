@@ -1,6 +1,6 @@
 {
-  "enabled": true,
-  "category": "other",
+  "enabled": false,
+  "category": "home-living",
   "name": {
     "zh": "旅行收纳包",
     "en": "Travel Organizer"
@@ -13,6 +13,5 @@
     "zh": "生活好物",
     "en": "EVERYDAY GOODS"
   },
-  "image": "images/cover.webp",
-  "sample": true
+  "image": "images/cover.webp"
 }

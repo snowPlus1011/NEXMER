@@ -5,10 +5,10 @@
       "directory": "navigation",
       "config": "/resources/navigation/config.json",
       "files": [
-        "images/nexmer-logo-red-x.png"
+        "images/nexmer-wordmark-vector.svg"
       ],
       "covers": [
-        "images/nexmer-logo-red-x.png"
+        "images/nexmer-wordmark-vector.svg"
       ],
       "detailsConfig": null,
       "details": []
@@ -17,10 +17,10 @@
       "directory": "about",
       "config": "/resources/about/config.json",
       "files": [
-        "images/hero.webp"
+        "images/hero-ai-collection.png"
       ],
       "covers": [
-        "images/hero.webp"
+        "images/hero-ai-collection.png"
       ],
       "detailsConfig": null,
       "details": []
@@ -29,23 +29,103 @@
       "directory": "products",
       "config": "/resources/products/config.json",
       "files": [
+        "catalog/ai-companion-pet/details/images/en/01.png",
+        "catalog/ai-companion-pet/details/images/en/02.png",
+        "catalog/ai-companion-pet/details/images/en/03.png",
+        "catalog/ai-companion-pet/details/images/en/04.png",
+        "catalog/ai-companion-pet/details/images/en/05.png",
+        "catalog/ai-companion-pet/details/images/zh/01.png",
+        "catalog/ai-companion-pet/details/images/zh/02.png",
+        "catalog/ai-companion-pet/details/images/zh/03.png",
+        "catalog/ai-companion-pet/details/images/zh/04.png",
+        "catalog/ai-companion-pet/details/images/zh/05.png",
+        "catalog/ai-companion-pet/images/ai-companion-pet-cover.png",
         "catalog/ai-companion-robot/details/images/01.webp",
         "catalog/ai-companion-robot/images/cover.webp",
-        "catalog/ai-smart-glasses/details/images/01.webp",
-        "catalog/ai-smart-glasses/images/cover.webp",
-        "catalog/ai-smart-lamp/details/images/01.webp",
-        "catalog/ai-smart-lamp/images/cover.webp",
+        "catalog/ai-smart-glasses/details/images/en/01.png",
+        "catalog/ai-smart-glasses/details/images/en/02.png",
+        "catalog/ai-smart-glasses/details/images/en/03.png",
+        "catalog/ai-smart-glasses/details/images/en/04.png",
+        "catalog/ai-smart-glasses/details/images/en/05.png",
+        "catalog/ai-smart-glasses/details/images/zh/01.png",
+        "catalog/ai-smart-glasses/details/images/zh/02.png",
+        "catalog/ai-smart-glasses/details/images/zh/03.png",
+        "catalog/ai-smart-glasses/details/images/zh/04.png",
+        "catalog/ai-smart-glasses/details/images/zh/05.png",
+        "catalog/ai-smart-glasses/images/ag18-glasses-cover.png",
+        "catalog/ai-smart-lamp/details/images/en/01.png",
+        "catalog/ai-smart-lamp/details/images/en/02.png",
+        "catalog/ai-smart-lamp/details/images/en/03.png",
+        "catalog/ai-smart-lamp/details/images/en/04.png",
+        "catalog/ai-smart-lamp/details/images/en/05.png",
+        "catalog/ai-smart-lamp/details/images/en/06.png",
+        "catalog/ai-smart-lamp/details/images/en/07.png",
+        "catalog/ai-smart-lamp/details/images/en/08.png",
+        "catalog/ai-smart-lamp/details/images/zh/01.png",
+        "catalog/ai-smart-lamp/details/images/zh/02.png",
+        "catalog/ai-smart-lamp/details/images/zh/03.png",
+        "catalog/ai-smart-lamp/details/images/zh/04.png",
+        "catalog/ai-smart-lamp/details/images/zh/05.png",
+        "catalog/ai-smart-lamp/details/images/zh/06.png",
+        "catalog/ai-smart-lamp/details/images/zh/07.png",
+        "catalog/ai-smart-lamp/details/images/zh/08.png",
+        "catalog/ai-smart-lamp/images/light-seeker-cover.png",
+        "catalog/dt088-toaster/details/images/en/01.png",
+        "catalog/dt088-toaster/details/images/en/02.png",
+        "catalog/dt088-toaster/details/images/en/03.png",
+        "catalog/dt088-toaster/details/images/en/04.png",
+        "catalog/dt088-toaster/details/images/zh/01.png",
+        "catalog/dt088-toaster/details/images/zh/02.png",
+        "catalog/dt088-toaster/details/images/zh/03.png",
+        "catalog/dt088-toaster/details/images/zh/04.png",
+        "catalog/dt088-toaster/images/dt088-toaster-cover.png",
         "catalog/everyday-apparel/details/images/01.webp",
         "catalog/everyday-apparel/images/cover.webp",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/en/01.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/en/02.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/en/03.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/en/04.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/en/05.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/en/06.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/en/07.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/en/08.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/zh/01.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/zh/02.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/zh/03.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/zh/04.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/zh/05.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/zh/06.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/zh/07.png",
+        "catalog/tang-dynasty-ramie-hanfu/details/images/zh/08.png",
+        "catalog/tang-dynasty-ramie-hanfu/images/hanfu-cover.png",
         "catalog/travel-organizer/details/images/01.webp",
         "catalog/travel-organizer/images/cover.webp",
-        "categories/images/all.webp",
-        "categories/images/clothing.webp",
-        "categories/images/electronics.webp",
-        "categories/images/other.webp",
-        "featured/01-ai-smart-glasses/images/cover.webp",
+        "catalog/wendan-pomelo-fragrance/details/images/en/01.png",
+        "catalog/wendan-pomelo-fragrance/details/images/en/02.png",
+        "catalog/wendan-pomelo-fragrance/details/images/en/03.png",
+        "catalog/wendan-pomelo-fragrance/details/images/en/04.png",
+        "catalog/wendan-pomelo-fragrance/details/images/en/05.png",
+        "catalog/wendan-pomelo-fragrance/details/images/en/06.png",
+        "catalog/wendan-pomelo-fragrance/details/images/en/07.png",
+        "catalog/wendan-pomelo-fragrance/details/images/zh/01.png",
+        "catalog/wendan-pomelo-fragrance/details/images/zh/02.png",
+        "catalog/wendan-pomelo-fragrance/details/images/zh/03.png",
+        "catalog/wendan-pomelo-fragrance/details/images/zh/04.png",
+        "catalog/wendan-pomelo-fragrance/details/images/zh/05.png",
+        "catalog/wendan-pomelo-fragrance/details/images/zh/06.png",
+        "catalog/wendan-pomelo-fragrance/details/images/zh/07.png",
+        "catalog/wendan-pomelo-fragrance/images/pomelo-fragrance-cover.png",
+        "categories/images/fashion-culture.jpg",
+        "categories/images/fragrance-beauty.png",
+        "categories/images/home-living.jpg",
+        "categories/images/smart-electronics.png",
+        "featured/01-ai-smart-glasses/images/ag18-glasses-cover.png",
         "featured/02-ai-companion-robot/images/cover.webp",
-        "featured/03-ai-smart-lamp/images/cover.webp"
+        "featured/03-ai-smart-lamp/images/light-seeker-cover.png",
+        "featured/04-wendan-pomelo-fragrance/images/pomelo-fragrance-cover.png",
+        "featured/05-tang-dynasty-ramie-hanfu/images/hanfu-cover.png",
+        "featured/06-dt088-toaster/images/dt088-toaster-cover.png",
+        "featured/07-ai-companion-pet/images/ai-companion-pet-cover.png"
       ],
       "covers": [],
       "detailsConfig": null,
@@ -55,16 +135,16 @@
       "directory": "products/categories",
       "config": "/resources/products/categories/config.json",
       "files": [
-        "images/all.webp",
-        "images/clothing.webp",
-        "images/electronics.webp",
-        "images/other.webp"
+        "images/fashion-culture.jpg",
+        "images/fragrance-beauty.png",
+        "images/home-living.jpg",
+        "images/smart-electronics.png"
       ],
       "covers": [
-        "images/all.webp",
-        "images/clothing.webp",
-        "images/electronics.webp",
-        "images/other.webp"
+        "images/fashion-culture.jpg",
+        "images/fragrance-beauty.png",
+        "images/home-living.jpg",
+        "images/smart-electronics.png"
       ],
       "detailsConfig": null,
       "details": []
@@ -72,13 +152,51 @@
     "support": {
       "directory": "support",
       "config": "/resources/support/config.json",
-      "files": [],
-      "covers": [],
+      "files": [
+        "images/whatsapp-qr.svg"
+      ],
+      "covers": [
+        "images/whatsapp-qr.svg"
+      ],
       "detailsConfig": null,
       "details": []
     }
   },
   "products": [
+    {
+      "id": "ai-companion-pet",
+      "directory": "products/catalog/ai-companion-pet",
+      "config": "/resources/products/catalog/ai-companion-pet/config.json",
+      "files": [
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png",
+        "images/ai-companion-pet-cover.png"
+      ],
+      "covers": [
+        "images/ai-companion-pet-cover.png"
+      ],
+      "detailsConfig": "/resources/products/catalog/ai-companion-pet/details/config.json",
+      "details": [
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png"
+      ]
+    },
     {
       "id": "ai-companion-robot",
       "directory": "products/catalog/ai-companion-robot",
@@ -100,15 +218,33 @@
       "directory": "products/catalog/ai-smart-glasses",
       "config": "/resources/products/catalog/ai-smart-glasses/config.json",
       "files": [
-        "details/images/01.webp",
-        "images/cover.webp"
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png",
+        "images/ag18-glasses-cover.png"
       ],
       "covers": [
-        "images/cover.webp"
+        "images/ag18-glasses-cover.png"
       ],
       "detailsConfig": "/resources/products/catalog/ai-smart-glasses/details/config.json",
       "details": [
-        "details/images/01.webp"
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png"
       ]
     },
     {
@@ -116,15 +252,75 @@
       "directory": "products/catalog/ai-smart-lamp",
       "config": "/resources/products/catalog/ai-smart-lamp/config.json",
       "files": [
-        "details/images/01.webp",
-        "images/cover.webp"
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/en/06.png",
+        "details/images/en/07.png",
+        "details/images/en/08.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png",
+        "details/images/zh/06.png",
+        "details/images/zh/07.png",
+        "details/images/zh/08.png",
+        "images/light-seeker-cover.png"
       ],
       "covers": [
-        "images/cover.webp"
+        "images/light-seeker-cover.png"
       ],
       "detailsConfig": "/resources/products/catalog/ai-smart-lamp/details/config.json",
       "details": [
-        "details/images/01.webp"
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/en/06.png",
+        "details/images/en/07.png",
+        "details/images/en/08.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png",
+        "details/images/zh/06.png",
+        "details/images/zh/07.png",
+        "details/images/zh/08.png"
+      ]
+    },
+    {
+      "id": "dt088-toaster",
+      "directory": "products/catalog/dt088-toaster",
+      "config": "/resources/products/catalog/dt088-toaster/config.json",
+      "files": [
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "images/dt088-toaster-cover.png"
+      ],
+      "covers": [
+        "images/dt088-toaster-cover.png"
+      ],
+      "detailsConfig": "/resources/products/catalog/dt088-toaster/details/config.json",
+      "details": [
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png"
       ]
     },
     {
@@ -144,6 +340,52 @@
       ]
     },
     {
+      "id": "tang-dynasty-ramie-hanfu",
+      "directory": "products/catalog/tang-dynasty-ramie-hanfu",
+      "config": "/resources/products/catalog/tang-dynasty-ramie-hanfu/config.json",
+      "files": [
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/en/06.png",
+        "details/images/en/07.png",
+        "details/images/en/08.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png",
+        "details/images/zh/06.png",
+        "details/images/zh/07.png",
+        "details/images/zh/08.png",
+        "images/hanfu-cover.png"
+      ],
+      "covers": [
+        "images/hanfu-cover.png"
+      ],
+      "detailsConfig": "/resources/products/catalog/tang-dynasty-ramie-hanfu/details/config.json",
+      "details": [
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/en/06.png",
+        "details/images/en/07.png",
+        "details/images/en/08.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png",
+        "details/images/zh/06.png",
+        "details/images/zh/07.png",
+        "details/images/zh/08.png"
+      ]
+    },
+    {
       "id": "travel-organizer",
       "directory": "products/catalog/travel-organizer",
       "config": "/resources/products/catalog/travel-organizer/config.json",
@@ -158,6 +400,48 @@
       "details": [
         "details/images/01.webp"
       ]
+    },
+    {
+      "id": "wendan-pomelo-fragrance",
+      "directory": "products/catalog/wendan-pomelo-fragrance",
+      "config": "/resources/products/catalog/wendan-pomelo-fragrance/config.json",
+      "files": [
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/en/06.png",
+        "details/images/en/07.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png",
+        "details/images/zh/06.png",
+        "details/images/zh/07.png",
+        "images/pomelo-fragrance-cover.png"
+      ],
+      "covers": [
+        "images/pomelo-fragrance-cover.png"
+      ],
+      "detailsConfig": "/resources/products/catalog/wendan-pomelo-fragrance/details/config.json",
+      "details": [
+        "details/images/en/01.png",
+        "details/images/en/02.png",
+        "details/images/en/03.png",
+        "details/images/en/04.png",
+        "details/images/en/05.png",
+        "details/images/en/06.png",
+        "details/images/en/07.png",
+        "details/images/zh/01.png",
+        "details/images/zh/02.png",
+        "details/images/zh/03.png",
+        "details/images/zh/04.png",
+        "details/images/zh/05.png",
+        "details/images/zh/06.png",
+        "details/images/zh/07.png"
+      ]
     }
   ],
   "featured": [
@@ -166,10 +450,10 @@
       "directory": "products/featured/01-ai-smart-glasses",
       "config": "/resources/products/featured/01-ai-smart-glasses/config.json",
       "files": [
-        "images/cover.webp"
+        "images/ag18-glasses-cover.png"
       ],
       "covers": [
-        "images/cover.webp"
+        "images/ag18-glasses-cover.png"
       ],
       "detailsConfig": null,
       "details": []
@@ -192,10 +476,62 @@
       "directory": "products/featured/03-ai-smart-lamp",
       "config": "/resources/products/featured/03-ai-smart-lamp/config.json",
       "files": [
-        "images/cover.webp"
+        "images/light-seeker-cover.png"
       ],
       "covers": [
-        "images/cover.webp"
+        "images/light-seeker-cover.png"
+      ],
+      "detailsConfig": null,
+      "details": []
+    },
+    {
+      "id": "04-wendan-pomelo-fragrance",
+      "directory": "products/featured/04-wendan-pomelo-fragrance",
+      "config": "/resources/products/featured/04-wendan-pomelo-fragrance/config.json",
+      "files": [
+        "images/pomelo-fragrance-cover.png"
+      ],
+      "covers": [
+        "images/pomelo-fragrance-cover.png"
+      ],
+      "detailsConfig": null,
+      "details": []
+    },
+    {
+      "id": "05-tang-dynasty-ramie-hanfu",
+      "directory": "products/featured/05-tang-dynasty-ramie-hanfu",
+      "config": "/resources/products/featured/05-tang-dynasty-ramie-hanfu/config.json",
+      "files": [
+        "images/hanfu-cover.png"
+      ],
+      "covers": [
+        "images/hanfu-cover.png"
+      ],
+      "detailsConfig": null,
+      "details": []
+    },
+    {
+      "id": "06-dt088-toaster",
+      "directory": "products/featured/06-dt088-toaster",
+      "config": "/resources/products/featured/06-dt088-toaster/config.json",
+      "files": [
+        "images/dt088-toaster-cover.png"
+      ],
+      "covers": [
+        "images/dt088-toaster-cover.png"
+      ],
+      "detailsConfig": null,
+      "details": []
+    },
+    {
+      "id": "07-ai-companion-pet",
+      "directory": "products/featured/07-ai-companion-pet",
+      "config": "/resources/products/featured/07-ai-companion-pet/config.json",
+      "files": [
+        "images/ai-companion-pet-cover.png"
+      ],
+      "covers": [
+        "images/ai-companion-pet-cover.png"
       ],
       "detailsConfig": null,
       "details": []

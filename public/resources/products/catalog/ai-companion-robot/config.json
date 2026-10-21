@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "category": "electronics",
   "name": {
     "zh": "AI 陪伴机器人",
@@ -13,6 +13,5 @@
     "zh": "智能陪伴",
     "en": "AI COMPANIONS"
   },
-  "image": "images/cover.webp",
-  "sample": true
+  "image": "images/cover.webp"
 }

@@ -1,0 +1,17 @@
+{
+  "productId": "wendan-pomelo-fragrance",
+  "enabled": true,
+  "name": {
+    "zh": "中国文旦柚香氛",
+    "en": "Wendan Pomelo Fragrance"
+  },
+  "summary": {
+    "zh": "灵感源于福建仙游文旦柚，融合多汁柚香与雅致花香。赤柚香韵、青柚花语两款香型，适配香水、家居香氛与洗护场景。",
+    "en": "Wendan pomelo from Xianyou, Fujian inspires two scents: juicy floral-fruity Crimson Pomelo X and fresh citrus-floral Jade Pomelo Bloom."
+  },
+  "tag": {
+    "zh": "文旦柚香氛",
+    "en": "POMELO FRAGRANCE"
+  },
+  "image": "images/pomelo-fragrance-cover.png"
+}

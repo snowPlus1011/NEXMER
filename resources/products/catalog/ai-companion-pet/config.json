@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "category": "electronics",
+  "name": {
+    "zh": "AI 陪伴宠物",
+    "en": "AI Companion Pet"
+  },
+  "summary": {
+    "zh": "柔软毛绒搭配灵动发光蓝眼与编织挂绳，可作桌面萌宠、随行挂饰或送礼之选，为居家与办公增添温暖。",
+    "en": "A soft plush companion with luminous blue eyes and a portable braided loop. A cozy desk buddy, travel charm and thoughtful gift."
+  },
+  "tag": {
+    "zh": "毛绒陪伴 · 便携萌宠",
+    "en": "PLUSH COMPANION"
+  },
+  "image": "images/ai-companion-pet-cover.png"
+}

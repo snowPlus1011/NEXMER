@@ -11,11 +11,20 @@
     "zh": "告诉我们你感兴趣的商品与采购需求，我们期待与你沟通。",
     "en": "Tell us what caught your eye and what you’re looking for. We’d love to hear from you."
   },
-  "email": "",
+  "email": "maje.nexmer@gmail.com",
   "whatsapp": "",
   "background": "",
   "contactTitle": {
     "zh": "联系信息",
     "en": "Contact details"
+  },
+  "whatsappQrImage": "images/whatsapp-qr.svg",
+  "whatsappQrLabel": {
+    "zh": "使用 WhatsApp 扫码联系",
+    "en": "Scan with WhatsApp to connect"
+  },
+  "whatsappQrAlt": {
+    "zh": "NEXMER WhatsApp 联系二维码",
+    "en": "NEXMER WhatsApp contact QR code"
   }
 }
